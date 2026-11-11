@@ -1,0 +1,33 @@
+{
+  "zeit": "2026-11-11T22:52:00+01:00",
+  "zeitraum": "12h",
+  "stimmung": "risk-on",
+  "kurz": "Die KI-Rally nach den CoreWeave-Zahlen hebt US-Tech, der VIX fällt. Der Markt preist für Dezember Zinserhöhungen bei Fed und EZB ein, die 10-jährige US-Rendite liegt bei etwa 5 %. Brent ist gegenüber dem Oktober-Hoch deutlich gefallen, weil die US-Iran-Spannungen nachlassen.",
+  "maerkte": [
+    {"gruppe": "Indizes", "name": "S&P 500", "symbol": "^GSPC", "kurs": 7619.38, "pct": 1.72},
+    {"gruppe": "Indizes", "name": "Nasdaq 100", "symbol": "^NDX", "kurs": 28374.25, "pct": 3.01},
+    {"gruppe": "Indizes", "name": "DAX", "symbol": "^GDAXI", "kurs": 26662.77, "pct": 0.73},
+    {"gruppe": "Indizes", "name": "Euro Stoxx 50", "symbol": "^STOXX50E", "kurs": 6393.39, "pct": 0.56},
+    {"gruppe": "Indizes", "name": "Nikkei 225", "symbol": "^N225", "kurs": 61248.59, "pct": 1.28},
+    {"gruppe": "Indizes", "name": "VIX", "symbol": "^VIX", "kurs": 17.49, "pct": -6.17},
+    {"gruppe": "Rohstoffe", "name": "Brent", "symbol": "BZ=F", "kurs": 92.61, "pct": -0.45},
+    {"gruppe": "Rohstoffe", "name": "Gold", "symbol": "GC=F", "kurs": 3993.6, "pct": -1.61},
+    {"gruppe": "Währung & Zinsen", "name": "EUR/USD", "symbol": "EURUSD=X", "kurs": 1.11, "pct": -0.44},
+    {"gruppe": "Währung & Zinsen", "name": "US 10J-Rendite", "symbol": "^TNX", "kurs": 5.0, "pct": 0.22},
+    {"gruppe": "Krypto", "name": "Bitcoin", "symbol": "BTC-USD", "kurs": 74388.6, "pct": 0.56}
+  ],
+  "ereignisse": [
+    {"titel": "CoreWeave-Zahlen treiben KI-Rally", "was": "CoreWeave hat die Erwartungen übertroffen, Apple erreicht ein Rekordhoch.", "wirkung": "US-Tech und KI-Werte steigen, Nasdaq 100 klar vorn, der VIX fällt.", "richtung": "up", "assets": ["Nasdaq 100", "S&P 500", "VIX"], "quellen": [{"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"}]},
+    {"titel": "Fed und EZB: Markt preist Zinserhöhungen im Dezember", "was": "Fed-Gouverneur Waller bringt eine Erhöhung um 50 Basispunkte ins Spiel, EZB-Chefvolkswirt Lane unterstützt eine Erhöhung.", "wirkung": "Renditen bleiben hoch (US 10J um 5 %), Gold unter Druck.", "richtung": "down", "assets": ["US 10J-Rendite", "Gold", "EUR/USD"], "quellen": [{"name": "FXStreet", "url": "https://www.fxstreet.com/analysis/hawks-fly-in-as-feds-waller-puts-50bps-hike-on-table-and-ecbs-lane-backs-hike-202611101041"}]},
+    {"titel": "Ölpreis deutlich unter Oktober-Hoch", "was": "Die Spannungen zwischen den USA und Iran lassen nach.", "wirkung": "Brent fällt, Energiewerte schwächer, Inflationsdruck etwas geringer.", "richtung": "down", "assets": ["Brent"], "quellen": [{"name": "ZeroHedge (Suchzusammenfassung)"}]}
+  ],
+  "aktien": [],
+  "radar": [],
+  "luecken": [
+    "Startbericht aus dem Testlauf vom 11.11., nachträglich für die Website übernommen. Keine Verlaufskurven, kein Termin-Radar.",
+    "US-Verbraucherpreise (Oktober): Ergebnis nicht bestätigt.",
+    "Ukraine/Russland: keine aktuellen Meldungen gefunden.",
+    "Prozentwerte beziehen sich auf rund 13 Handelsstunden von Yahoo und sind Näherungen.",
+    "TheStreet und FXStreet waren per Abruf nicht erreichbar (403), Aussagen stützen sich auf Suchzusammenfassungen."
+  ]
+}

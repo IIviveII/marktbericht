@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marktbericht</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#14171c;--muted:#5f6773;--line:#e3e6ea;--up:#0f8a4f;--down:#c8372d;--flat:#6b7280;--accent:#2f5bd3;--chip:#eef1f6}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--text:#e8ebf0;--muted:#9aa3af;--line:#262c36;--up:#3ccf86;--down:#ff6b5e;--flat:#9aa3af;--accent:#7aa2ff;--chip:#222833}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:18px}
+h1{font-size:22px;margin:0}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:28px 0 10px}
+.meta{color:var(--muted);font-size:14px}
+select{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit;max-width:100%}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:600;font-size:13px}
+.risk-on{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
+.risk-off{background:color-mix(in srgb,var(--down) 18%,transparent);color:var(--down)}
+.neutral{background:var(--chip);color:var(--muted)}
+.summary{font-size:17px;line-height:1.6}
+.groups{display:grid;gap:18px}
+.group-title{font-size:13px;color:var(--muted);margin-bottom:8px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.tile .n{font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font-size:18px;font-weight:600;font-variant-numeric:tabular-nums}
+.pct{font-weight:600;font-variant-numeric:tabular-nums}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--flat)}
+svg.spark{display:block;width:100%;height:32px;margin-top:6px}
+.events{display:grid;gap:12px}
+.ev{display:grid;grid-template-columns:36px 1fr;gap:12px}
+.dir{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;font-size:18px;font-weight:700}
+.dir.up{background:color-mix(in srgb,var(--up) 15%,transparent)}
+.dir.down{background:color-mix(in srgb,var(--down) 15%,transparent)}
+.dir.flat{background:var(--chip)}
+.ev h3{margin:0 0 4px;font-size:16px}
+.ev p{margin:4px 0}
+.lbl{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{background:var(--chip);border-radius:6px;padding:2px 8px;font-size:12px}
+.src{font-size:13px;margin-top:8px;color:var(--muted)}
+.src a{color:var(--accent)}
+.stocks{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.stock .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.stock .t{font-size:18px;font-weight:700}
+.radar{list-style:none;margin:0;padding:0}
+.radar li{display:grid;grid-template-columns:90px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.radar li:last-child{border-bottom:0}
+.radar .z{font-variant-numeric:tabular-nums;color:var(--muted)}
+.radar .hi{font-weight:600}
+.notes{color:var(--muted);font-size:14px}
+.notes ul{margin:0;padding-left:18px}
+.empty{color:var(--muted)}
+footer{margin-top:36px;color:var(--muted);font-size:12px}
+@media (max-width:520px){.radar li{grid-template-columns:70px 1fr}.stocks{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1 id="title">Marktbericht</h1>
+      <div class="meta" id="meta">lädt …</div>
+    </div>
+    <select id="archive" aria-label="Bericht auswählen"></select>
+  </header>
+
+  <div class="card"><div id="mood"></div><p class="summary" id="kurz"></p></div>
+
+  <h2>Märkte in Zahlen</h2>
+  <div class="groups" id="maerkte"></div>
+
+  <h2>Wichtigste Ereignisse</h2>
+  <div class="events" id="ereignisse"></div>
+
+  <h2>Geflaggte Aktien</h2>
+  <div class="stocks" id="aktien"></div>
+
+  <h2>Auf dem Radar</h2>
+  <div class="card"><ul class="radar" id="radar"></ul></div>
+
+  <h2>Hinweise &amp; Lücken</h2>
+  <div class="card notes" id="luecken"></div>
+
+  <footer>Automatisch erstellt von der Marktbericht-Routine. Keine Anlageberatung.</footer>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+// Data comes from web research: build DOM with textContent only, never innerHTML.
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+const num = new Intl.NumberFormat('de-DE', { maximumFractionDigits: 2 });
+const dirOf = p => p > 0.05 ? 'up' : p < -0.05 ? 'down' : 'flat';
+const fmtPct = p => (p > 0 ? '+' : '') + num.format(p) + ' %';
+const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : null;
+
+function spark(points, dir) {
+  if (!points || points.length < 2) return null;
+  const min = Math.min(...points), max = Math.max(...points), r = max - min || 1;
+  const d = points.map((v, i) => `${(i / (points.length - 1) * 100).toFixed(2)},${(30 - (v - min) / r * 28).toFixed(2)}`).join(' ');
+  const ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('viewBox', '0 0 100 32'); svg.setAttribute('preserveAspectRatio', 'none'); svg.classList.add('spark', dir);
+  const pl = document.createElementNS(ns, 'polyline');
+  pl.setAttribute('points', d); pl.setAttribute('fill', 'none'); pl.setAttribute('stroke', 'currentColor');
+  pl.setAttribute('stroke-width', '1.5'); pl.setAttribute('vector-effect', 'non-scaling-stroke');
+  svg.append(pl); return svg;
+}
+
+function render(r) {
+  const t = new Date(r.zeit);
+  $('title').textContent = 'Marktbericht';
+  $('meta').textContent = t.toLocaleString('de-DE', { timeZone: 'Europe/Berlin', dateStyle: 'full', timeStyle: 'short' }) + ' · Zeitraum ' + (r.zeitraum || '–');
+
+  const mood = r.stimmung || 'neutral';
+  $('mood').replaceChildren(el('span', 'badge ' + mood, mood === 'risk-on' ? 'Risk-on' : mood === 'risk-off' ? 'Risk-off' : 'Neutral'));
+  $('kurz').textContent = r.kurz || '';
+
+  const groups = {};
+  (r.maerkte || []).forEach(m => (groups[m.gruppe || 'Sonstiges'] ??= []).push(m));
+  $('maerkte').replaceChildren(...Object.entries(groups).map(([g, list]) => {
+    const wrap = el('div'); wrap.append(el('div', 'group-title', g));
+    const tiles = el('div', 'tiles');
+    list.forEach(m => {
+      const d = dirOf(m.pct), tile = el('div', 'tile');
+      tile.append(el('div', 'n', m.name), el('div', 'v', m.kurs != null ? num.format(m.kurs) : '–'),
+        el('div', 'pct ' + d, m.pct != null ? fmtPct(m.pct) : '–'));
+      const s = spark(m.verlauf, d); if (s) tile.append(s);
+      tiles.append(tile);
+    });
+    wrap.append(tiles); return wrap;
+  }));
+
+  const evs = r.ereignisse || [];
+  $('ereignisse').replaceChildren(...(evs.length ? evs.map(e => {
+    const d = e.richtung === 'up' ? 'up' : e.richtung === 'down' ? 'down' : 'flat';
+    const card = el('div', 'card ev');
+    card.append(el('div', 'dir ' + d, d === 'up' ? '↑' : d === 'down' ? '↓' : '↔'));
+    const body = el('div');
+    body.append(el('h3', null, e.titel));
+    const p1 = el('p'); p1.append(el('span', 'lbl', 'Was passiert ist '), el('br'), document.createTextNode(e.was || '')); body.append(p1);
+    const p2 = el('p'); p2.append(el('span', 'lbl', 'Wirkung auf den Markt '), el('br'), document.createTextNode(e.wirkung || '')); body.append(p2);
+    if (e.assets?.length) { const c = el('div', 'chips'); e.assets.forEach(a => c.append(el('span', 'chip', a))); body.append(c); }
+    if (e.quellen?.length) {
+      const s = el('div', 'src', 'Quellen: ');
+      e.quellen.forEach((q, i) => {
+        if (i) s.append(document.createTextNode(' · '));
+        const u = safeUrl(q.url);
+        if (u) { const a = el('a', null, q.name || u); a.href = u; a.target = '_blank'; a.rel = 'noopener'; s.append(a); }
+        else s.append(document.createTextNode(q.name || ''));
+      });
+      body.append(s);
+    }
+    card.append(body); return card;
+  }) : [el('div', 'empty', 'Keine Ereignisse.')]));
+
+  const st = r.aktien || [];
+  $('aktien').replaceChildren(...(st.length ? st.map(a => {
+    const d = dirOf(a.pct), card = el('div', 'card stock'), top = el('div', 'top');
+    top.append(el('span', 't', a.ticker), el('span', 'pct ' + d, (a.kurs != null ? num.format(a.kurs) + '  ' : '') + (a.pct != null ? fmtPct(a.pct) : '')));
+    card.append(top);
+    const s = spark(a.verlauf, d); if (s) card.append(s);
+    const p1 = el('p'); p1.append(el('span', 'lbl', 'Warum '), el('br'), document.createTextNode(a.warum || '')); card.append(p1);
+    if (a.ausblick) { const p2 = el('p'); p2.append(el('span', 'lbl', 'Ausblick & Risiken '), el('br'), document.createTextNode(a.ausblick)); card.append(p2); }
+    return card;
+  }) : [el('div', 'card empty', 'Keine Aktien geflaggt. Im Telegram-Chat mit /flag TICKER hinzufügen.')]));
+
+  const rad = r.radar || [];
+  $('radar').replaceChildren(...(rad.length ? rad.map(x => {
+    const li = el('li'); li.append(el('span', 'z', x.zeit || ''), el('span', x.wichtig ? 'hi' : '', x.termin)); return li;
+  }) : [el('li', 'empty', 'Keine Termine.')]));
+
+  const lu = r.luecken || [];
+  if (lu.length) { const ul = el('ul'); lu.forEach(x => ul.append(el('li', null, x))); $('luecken').replaceChildren(ul); }
+  else $('luecken').replaceChildren(el('span', null, 'Keine.'));
+}
+
+async function load(file) {
+  const r = await fetch('reports/' + file, { cache: 'no-store' }).then(x => x.json());
+  render(r);
+}
+
+(async () => {
+  try {
+    const list = await fetch('reports/index.json', { cache: 'no-store' }).then(x => x.json());
+    const sel = $('archive');
+    list.forEach(f => {
+      const m = f.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})/);
+      const o = el('option', null, m ? `${m[3]}.${m[2]}.${m[1]} ${m[4]}:${m[5]} Uhr` : f); o.value = f; sel.append(o);
+    });
+    sel.onchange = () => load(sel.value).catch(() => $('meta').textContent = 'Bericht konnte nicht geladen werden.');
+    if (list.length) await load(list[0]); else $('meta').textContent = 'Noch kein Bericht vorhanden.';
+  } catch { $('meta').textContent = 'Berichte konnten nicht geladen werden.'; }
+})();
+</script>
+</body>
+</html>
