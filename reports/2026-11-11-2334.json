@@ -1,0 +1,694 @@
+{
+ "zeit": "2026-11-11T23:34:23+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-on",
+ "kurz": "Tech und Halbleiter treiben die US-Börsen nach den CoreWeave-Zahlen deutlich nach oben, der VIX fällt; der DAX schließt nahe seinem Rekordhoch. Gleichzeitig preist der Markt nach dem heißen US-CPI eine Fed-Zinserhöhung im Dezember praktisch fest ein (kleine Wahrscheinlichkeit für 50 Basispunkte), die 10-jährige Rendite liegt bei rund 5 %. Insgesamt überwiegt risk-on bei Aktien, während Gold unter Druck steht und Öl wegen Iran-Spannungen schwankt.",
+ "maerkte": [
+  {
+   "gruppe": "Indizes",
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 7619.38,
+   "pct": 1.29,
+   "verlauf": [
+    7589.42,
+    7615.67,
+    7629.43,
+    7643.67,
+    7626.11,
+    7624.14,
+    7617.84,
+    7619.38
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 28374.25,
+   "pct": 2.3,
+   "verlauf": [
+    28275.68,
+    28469.25,
+    28533.13,
+    28577.99,
+    28462.53,
+    28414.87,
+    28374.01,
+    28374.25
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 26662.77,
+   "pct": 1.04,
+   "verlauf": [
+    26620.7,
+    26525.41,
+    26522.69,
+    26547.09,
+    26522.72,
+    26569.53,
+    26588.1,
+    26609.52,
+    26644.39,
+    26662.77
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 6393.39,
+   "pct": 0.88,
+   "verlauf": [
+    6387.84,
+    6367.89,
+    6370.77,
+    6373.53,
+    6365.89,
+    6371.25,
+    6366.22,
+    6379.44,
+    6392.53,
+    6393.39
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 61248.59,
+   "pct": 1.36,
+   "verlauf": [
+    60833.08,
+    60884.28,
+    60942.48,
+    61302.5,
+    61195.92,
+    61299.76,
+    61285.47,
+    61248.59
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 17.49,
+   "pct": -6.22,
+   "verlauf": [
+    18.64,
+    18.55,
+    18.51,
+    18.25,
+    18.31,
+    17.63,
+    17.82,
+    17.53,
+    17.42,
+    17.45,
+    17.59,
+    17.48,
+    17.49
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 92.63,
+   "pct": -0.32,
+   "verlauf": [
+    93.03,
+    92.89,
+    93.05,
+    92.58,
+    93.35,
+    94.08,
+    93.65,
+    93.13,
+    93.48,
+    92.42,
+    92.49,
+    92.63,
+    92.63
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3994.3,
+   "pct": -1.57,
+   "verlauf": [
+    4059.0,
+    4052.5,
+    4052.0,
+    4045.5,
+    4022.4,
+    4012.6,
+    4008.1,
+    4000.3,
+    3994.8,
+    3993.8,
+    3992.1,
+    3994.3,
+    3994.3
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.11,
+   "pct": -0.38,
+   "verlauf": [
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "US 10J-Rendite",
+   "symbol": "^TNX",
+   "kurs": 5.0,
+   "pct": 0.34,
+   "verlauf": [
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "gruppe": "Krypto",
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 74157.77,
+   "pct": 0.25,
+   "verlauf": [
+    73914.81,
+    73818.17,
+    73723.72,
+    73484.02,
+    73910.16,
+    74213.18,
+    74436.55,
+    74419.34,
+    74334.2,
+    74568.01,
+    74301.18,
+    74156.62,
+    74157.77
+   ]
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "CoreWeave-Zahlen entfachen KI-Rally",
+   "was": "CoreWeave meldete für Q3 einen Umsatzanstieg von 168 % auf 3,66 Mrd. USD und übertraf die Erwartungen; die Aktie sprang je nach Quelle um 13-25 %. S&P 500 +1,3 % auf 7.619, Nasdaq Composite +1,6 %. Nvidia blieb dagegen schwach (Untersuchung des Boards, laut Bericht rund 6 % unter dem Schlusskurs von Freitag).",
+   "wirkung": "Positiv für Halbleiter, KI-Infrastruktur und Nasdaq; Nvidia mit eigenem negativen Sonderfaktor. Entspannt vorübergehend die Sorge um die KI-Bewertungen, bleibt aber bei hoher Zinsbelastung von CoreWeave (laut Substack-Quelle 846 Mio. USD Zinsen, nicht unabhängig geprüft) fragil.",
+   "richtung": "up",
+   "assets": [
+    "Nasdaq",
+    "Halbleiter",
+    "CoreWeave",
+    "Nvidia"
+   ],
+   "quellen": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+    },
+    {
+     "name": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+    }
+   ]
+  },
+  {
+   "titel": "Heißer US-CPI: Fed-Zinserhöhung im Dezember eingepreist",
+   "was": "Die Oktober-Inflation lag mit +0,4 % (Kern +0,3 %) über den Erwartungen von 0,3 % bzw. 0,2 %. Laut CME FedWatch ist eine Dezember-Erhöhung zu ca. 99 % eingepreist, die Wahrscheinlichkeit von 50 Basispunkten stieg auf rund 14 %. Die 2-jährige Rendite stieg um etwa 16-19 Basispunkte auf ca. 4,73 %, die 10-jährige auf rund 5 %. Der US-Anleihemarkt war am 11.11. wegen Veterans Day geschlossen.",
+   "wirkung": "Belastet Anleihen und Gold, stützt den Dollar (EUR/USD fiel), erhöht Bewertungsdruck auf Wachstumsaktien und Zinssensitive. Quellen nennen für den Rekord der 2-Jahres-Bewegung unterschiedliche Vergleichszeiträume.",
+   "richtung": "down",
+   "assets": [
+    "US-Anleihen",
+    "Gold",
+    "EUR/USD",
+    "Growth-Aktien"
+   ],
+   "quellen": [
+    {
+     "name": "The National",
+     "url": "https://www.thenationalnews.com/business/economy/2026/11/10/federal-reserve-inflation-interest-rates-december/"
+    },
+    {
+     "name": "Benzinga",
+     "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63106031/50-basis-point-fed-hike-october-cpi-waller-treasury-yields"
+    },
+    {
+     "name": "FXStreet",
+     "url": "https://www.fxstreet.com/news/us-treasuries-cpi-shock-fuels-yield-surge-deutsche-bank-202611111129"
+    }
+   ]
+  },
+  {
+   "titel": "Öl: Iran-Verhandlungen und Hormus-Risiken",
+   "was": "Brent erholte sich auf rund 92-93 USD, nachdem es am 10.11. um fast 7 % gefallen war (Trump entschärfte die Rhetorik). Irans Sicherheitschef lehnt die Ausfuhr angereicherten Materials ab, Teheran dementiert Gespräche mit Washington; Berichte über Tankerangriffe nahe der Straße von Hormus.",
+   "wirkung": "Ölpreis reagiert stark auf Verhandlungsnachrichten; höherer Ölpreis erhöht Inflationsrisiko und belastet Zinsen/Airlines, stützt Energiewerte. Einzelne Details (Tankerangriffe) stammen aus nur einer Quelle.",
+   "richtung": "mixed",
+   "assets": [
+    "Brent",
+    "Energie",
+    "Inflationserwartungen"
+   ],
+   "quellen": [
+    {
+     "name": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4671034-oil-prices-rise-as-iran-nuclear-dispute-fuels-supply-concerns?feed_item_type=news"
+    },
+    {
+     "name": "Benzinga",
+     "url": "https://www.benzinga.com/markets/commodities/26/11/63132511/oil-prices-rebound-iran-peace-hopes-hormuz-tanker-attacks"
+    },
+    {
+     "name": "Oilprice.com",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html"
+    }
+   ]
+  },
+  {
+   "titel": "DAX nahe Rekord: Siemens Energy und Infineon vorn",
+   "was": "Der DAX schloss mit +1,20 % bei 26.662,77 Punkten (dritter Gewinntag in Folge), knapp unter dem Intraday-Rekord von 26.692,90. Siemens Energy legte rund 9-11 % zu, Infineon stützte; Rheinmetall fiel deutlich. Ob es ein Rekordschluss war, ist quellenabhängig.",
+   "wirkung": "Technologie- und Halbleiterwerte führen, Rüstung gibt nach (Iran-Entspannung); Zinssorgen begrenzen die Dynamik.",
+   "richtung": "up",
+   "assets": [
+    "DAX",
+    "Siemens Energy",
+    "Infineon",
+    "Rheinmetall"
+   ],
+   "quellen": [
+    {
+     "name": "ARIVA/dpa-AFX",
+     "url": "https://www.ariva.de/news/wdh-aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-12203751"
+    },
+    {
+     "name": "ad-hoc-news",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-1-20-prozent-hoeher-bei-26-662-77-punkten/70493949"
+    }
+   ]
+  }
+ ],
+ "aktien": [],
+ "radar": [
+  {
+   "zeit": "14:30",
+   "termin": "US-Erstanträge auf Arbeitslosenhilfe (Konsens ca. 195.000, zuvor 189.000)",
+   "wichtig": true
+  },
+  {
+   "zeit": "19:00",
+   "termin": "Auktion 30-jähriger US-Staatsanleihen",
+   "wichtig": true
+  },
+  {
+   "zeit": "13.11.",
+   "termin": "US-Erzeugerpreise (PPI) Oktober, Konsens +0,4 % m/m",
+   "wichtig": false
+  }
+ ],
+ "luecken": [
+  "Fed-Redner und Unternehmenstermine für den 12.11. nicht gefunden.",
+  "Quellen weichen bei Kursen (Gold, Brent, DAX-Schluss) leicht ab; Kurse stammen von Yahoo Finance, %-Werte sind Veränderung über 12h auf Basis stündlicher Schlusskurse (Handelsschluss-Lücken möglich).",
+  "Keine geflaggten Aktien konfiguriert.",
+  "Geopolitik-Quellen worldmonitor.app, Crisis Group etc. nicht direkt geprüft; Iran-Lage nur über Marktberichte.",
+  "Neuer Bericht nur ca. 8 Minuten nach dem vorherigen; Ereignisse und Radar übernommen und nur Kurse aktualisiert. Gründe für Aktienbewegungen zum Teil nur aus Sekundärquellen/unbestätigt.",
+  "%-Werte beziehen sich auf die letzten 12 Handelsstunden-Schlusskurse (Börsenschluss-Lücken möglich)."
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 173.73,
+   "pct": 2.93,
+   "verlauf": [
+    174.23,
+    176.15,
+    176.29,
+    177.18,
+    175.38,
+    174.81,
+    173.85,
+    173.73
+   ],
+   "notiz": "Board-Untersuchung zu CEO Huang (seit 8.11.) und Zahlen am 17.11. im Fokus; Erholung nach -4,3 % am 9.11. (Ursache der heutigen Bewegung nicht separat bestätigt)."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 521.12,
+   "pct": -2.31,
+   "verlauf": [
+    519.88,
+    519.81,
+    521.21,
+    522.09,
+    520.73,
+    519.46,
+    521.21,
+    521.12
+   ],
+   "notiz": "Grund nicht bestätigt; Berichte über Rückbau einer KI-Cloud-Kapazitätsvereinbarung mit Oracle (Details unbestätigt)."
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 355.63,
+   "pct": 2.01,
+   "verlauf": [
+    353.54,
+    354.11,
+    354.33,
+    355.05,
+    354.81,
+    354.97,
+    355.79,
+    355.63
+   ],
+   "notiz": "Mitlaufen mit Techwerten; konkreter Grund nicht bestätigt."
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 293.45,
+   "pct": 2.11,
+   "verlauf": [
+    290.62,
+    292.37,
+    293.36,
+    295.55,
+    293.86,
+    293.98,
+    293.58,
+    293.45
+   ],
+   "notiz": "Mitlaufen mit Techwerten; konkreter Grund nicht bestätigt."
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 266.17,
+   "pct": -1.75,
+   "verlauf": [
+    266.48,
+    266.98,
+    266.73,
+    266.49,
+    266.55,
+    266.2,
+    266.22,
+    266.17
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 628.77,
+   "pct": -2.01,
+   "verlauf": [
+    635.85,
+    641.91,
+    641.97,
+    639.71,
+    635.22,
+    633.89,
+    628.76,
+    628.77
+   ],
+   "notiz": "Grund nicht bestätigt (Vortag stark erholt)."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 345.22,
+   "pct": 3.99,
+   "verlauf": [
+    350.93,
+    353.78,
+    355.4,
+    353.22,
+    349.12,
+    346.93,
+    345.45,
+    345.22
+   ],
+   "notiz": "Halbleiter-Erholung nach der Schwäche der Vorwoche (Sektorbericht)."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 413.35,
+   "pct": 4.25,
+   "verlauf": [
+    410.05,
+    414.1,
+    415.73,
+    416.29,
+    414.04,
+    413.66,
+    413.3,
+    413.35
+   ],
+   "notiz": "Halbleiter-Erholung; Sektorindex SOX am 9.11. +6,6 %."
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 390.84,
+   "pct": 2.91,
+   "verlauf": [
+    393.73,
+    393.0,
+    393.12,
+    393.49,
+    392.6,
+    391.79,
+    390.8,
+    390.84
+   ],
+   "notiz": "Grund nicht bestätigt."
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 588.24,
+   "pct": 0.82,
+   "verlauf": [
+    578.68,
+    578.12,
+    579.33,
+    581.78,
+    583.44,
+    586.33,
+    588.28,
+    588.24
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 173.73,
+   "pct": 2.93,
+   "verlauf": [
+    174.23,
+    176.15,
+    176.29,
+    177.18,
+    175.38,
+    174.81,
+    173.85,
+    173.73
+   ],
+   "notiz": "Board-Untersuchung zu CEO Huang (seit 8.11.) und Zahlen am 17.11. im Fokus; Erholung nach -4,3 % am 9.11. (Ursache der heutigen Bewegung nicht separat bestätigt)."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 521.12,
+   "pct": -2.31,
+   "verlauf": [
+    519.88,
+    519.81,
+    521.21,
+    522.09,
+    520.73,
+    519.46,
+    521.21,
+    521.12
+   ],
+   "notiz": "Grund nicht bestätigt; Berichte über Rückbau einer KI-Cloud-Kapazitätsvereinbarung mit Oracle (Details unbestätigt)."
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 293.45,
+   "pct": 2.11,
+   "verlauf": [
+    290.62,
+    292.37,
+    293.36,
+    295.55,
+    293.86,
+    293.98,
+    293.58,
+    293.45
+   ],
+   "notiz": "Mitlaufen mit Techwerten; konkreter Grund nicht bestätigt."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 628.77,
+   "pct": -2.01,
+   "verlauf": [
+    635.85,
+    641.91,
+    641.97,
+    639.71,
+    635.22,
+    633.89,
+    628.76,
+    628.77
+   ],
+   "notiz": "Grund nicht bestätigt (Vortag stark erholt)."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 345.22,
+   "pct": 3.99,
+   "verlauf": [
+    350.93,
+    353.78,
+    355.4,
+    353.22,
+    349.12,
+    346.93,
+    345.45,
+    345.22
+   ],
+   "notiz": "Halbleiter-Erholung nach der Schwäche der Vorwoche (Sektorbericht)."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 413.35,
+   "pct": 4.25,
+   "verlauf": [
+    410.05,
+    414.1,
+    415.73,
+    416.29,
+    414.04,
+    413.66,
+    413.3,
+    413.35
+   ],
+   "notiz": "Halbleiter-Erholung; Sektorindex SOX am 9.11. +6,6 %."
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 552.9,
+   "pct": 7.27,
+   "verlauf": [
+    543.72,
+    554.37,
+    556.64,
+    564.43,
+    561.56,
+    555.61,
+    552.96,
+    552.9
+   ],
+   "notiz": "Chip-Rebound nach schwacher Vorwoche (Sektorbericht); Einzelgrund nicht bestätigt."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 172.4,
+   "pct": 2.11,
+   "verlauf": [
+    172.26,
+    173.43,
+    173.18,
+    173.57,
+    173.16,
+    172.83,
+    172.47,
+    172.4
+   ],
+   "notiz": "Grund nicht bestätigt."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 128.38,
+   "pct": 8.84,
+   "verlauf": [
+    125.95,
+    128.29,
+    130.32,
+    130.04,
+    129.34,
+    128.82,
+    128.43,
+    128.38
+   ],
+   "notiz": "Erholung/Short-Covering nach Verkäufen wegen Verschuldungs- und Verwässerungssorgen (Analystenkommentar, nicht bestätigt)."
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1534.42,
+   "pct": 1.82,
+   "verlauf": [
+    1540.18,
+    1558.66,
+    1558.49,
+    1558.43,
+    1549.0,
+    1541.43,
+    1534.83,
+    1534.42
+   ],
+   "notiz": ""
+  }
+ ]
+}
