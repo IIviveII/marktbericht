@@ -43,9 +43,23 @@ svg.spark{display:block;width:100%;height:32px;margin-top:6px}
 .chip{background:var(--chip);border-radius:6px;padding:2px 8px;font-size:12px}
 .src{font-size:13px;margin-top:8px;color:var(--muted)}
 .src a{color:var(--accent)}
-.stocks{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
-.stock .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
-.stock .t{font-size:18px;font-weight:700}
+.tile .note{font-size:12px;color:var(--muted);margin-top:4px}
+.tile .tk{font-size:11px;color:var(--muted)}
+.flagged{display:grid;gap:16px}
+.stock .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.stock .t{font-size:22px;font-weight:700}
+.stock .nm{color:var(--muted);font-size:14px;margin-left:8px;font-weight:400}
+.stock .px{font-size:20px;font-weight:600}
+.stock svg.spark{height:70px}
+.kz{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin:12px 0}
+.kz div{background:var(--chip);border-radius:8px;padding:6px 10px}
+.kz b{display:block;font-size:15px;font-variant-numeric:tabular-nums}
+.kz span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.two ul,.stock ul{margin:4px 0;padding-left:18px}
+.stock .sec{margin-top:12px}
+.pro li::marker{color:var(--up)}.con li::marker{color:var(--down)}
+@media (max-width:640px){.two{grid-template-columns:1fr}}
 .radar{list-style:none;margin:0;padding:0}
 .radar li{display:grid;grid-template-columns:90px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
 .radar li:last-child{border-bottom:0}
@@ -55,7 +69,7 @@ svg.spark{display:block;width:100%;height:32px;margin-top:6px}
 .notes ul{margin:0;padding-left:18px}
 .empty{color:var(--muted)}
 footer{margin-top:36px;color:var(--muted);font-size:12px}
-@media (max-width:520px){.radar li{grid-template-columns:70px 1fr}.stocks{grid-template-columns:1fr}}
+@media (max-width:520px){.radar li{grid-template-columns:70px 1fr}}
 </style>
 </head>
 <body>
@@ -70,14 +84,20 @@ footer{margin-top:36px;color:var(--muted);font-size:12px}
 
   <div class="card"><div id="mood"></div><p class="summary" id="kurz"></p></div>
 
+  <h2>Deine Aktien</h2>
+  <div class="flagged" id="aktien"></div>
+
   <h2>Märkte in Zahlen</h2>
   <div class="groups" id="maerkte"></div>
 
+  <h2>Top 10 Aktien</h2>
+  <div class="tiles" id="top10"></div>
+
+  <h2>KI Top 10</h2>
+  <div class="tiles" id="ki10"></div>
+
   <h2>Wichtigste Ereignisse</h2>
   <div class="events" id="ereignisse"></div>
-
-  <h2>Geflaggte Aktien</h2>
-  <div class="stocks" id="aktien"></div>
 
   <h2>Auf dem Radar</h2>
   <div class="card"><ul class="radar" id="radar"></ul></div>
@@ -107,6 +127,46 @@ function spark(points, dir) {
   pl.setAttribute('points', d); pl.setAttribute('fill', 'none'); pl.setAttribute('stroke', 'currentColor');
   pl.setAttribute('stroke-width', '1.5'); pl.setAttribute('vector-effect', 'non-scaling-stroke');
   svg.append(pl); return svg;
+}
+
+function section(label, content) {
+  const d = el('div', 'sec'); d.append(el('div', 'lbl', label));
+  if (Array.isArray(content)) { const ul = el('ul'); content.forEach(x => ul.append(el('li', null, x))); d.append(ul); }
+  else d.append(el('p', null, content));
+  return d;
+}
+
+function stockCard(a) {
+  const d = dirOf(a.pct), card = el('div', 'card stock'), top = el('div', 'top');
+  const name = el('span', 't', a.ticker); if (a.name) name.append(el('span', 'nm', a.name));
+  top.append(name, el('span', 'px pct ' + d, (a.kurs != null ? num.format(a.kurs) + '  ' : '') + (a.pct != null ? fmtPct(a.pct) : '')));
+  card.append(top);
+  const s = spark(a.verlauf, d); if (s) card.append(s);
+  const kz = Object.entries(a.kennzahlen || {});
+  if (kz.length) { const g = el('div', 'kz'); kz.forEach(([k, v]) => { const c = el('div'); c.append(el('span', null, k), el('b', null, String(v ?? '–'))); g.append(c); }); card.append(g); }
+  if (a.warum) card.append(section('Warum bewegt sie sich so', a.warum));
+  if (a.news?.length) {
+    const sec = el('div', 'sec'), ul = el('ul'); sec.append(el('div', 'lbl', 'Nachrichten'));
+    a.news.forEach(n => {
+      const li = el('li'), u = safeUrl(n.url);
+      if (n.zeit) li.append(el('span', 'z', n.zeit + ' · '));
+      if (u) { const l = el('a', null, n.titel); l.href = u; l.target = '_blank'; l.rel = 'noopener'; li.append(l); } else li.append(document.createTextNode(n.titel || ''));
+      if (n.quelle) li.append(el('span', 'src', ' – ' + n.quelle));
+      ul.append(li);
+    });
+    sec.append(ul); card.append(sec);
+  }
+  if (a.analysten) card.append(section('Analysten', a.analysten));
+  if (a.chancen?.length || a.risiken?.length) {
+    const two = el('div', 'two sec');
+    const c = section('Chancen', a.chancen || []); c.querySelector('ul').className = 'pro';
+    const r = section('Risiken', a.risiken || []); r.querySelector('ul').className = 'con';
+    two.append(c, r); card.append(two);
+  }
+  if (a.technik) card.append(section('Charttechnik', a.technik));
+  if (a.termine?.length) card.append(section('Termine', a.termine.map(t => (t.zeit ? t.zeit + ' – ' : '') + t.termin)));
+  if (a.ausblick) card.append(section('Ausblick', a.ausblick));
+  return card;
 }
 
 function render(r) {
@@ -157,15 +217,19 @@ function render(r) {
   }) : [el('div', 'empty', 'Keine Ereignisse.')]));
 
   const st = r.aktien || [];
-  $('aktien').replaceChildren(...(st.length ? st.map(a => {
-    const d = dirOf(a.pct), card = el('div', 'card stock'), top = el('div', 'top');
-    top.append(el('span', 't', a.ticker), el('span', 'pct ' + d, (a.kurs != null ? num.format(a.kurs) + '  ' : '') + (a.pct != null ? fmtPct(a.pct) : '')));
-    card.append(top);
-    const s = spark(a.verlauf, d); if (s) card.append(s);
-    const p1 = el('p'); p1.append(el('span', 'lbl', 'Warum '), el('br'), document.createTextNode(a.warum || '')); card.append(p1);
-    if (a.ausblick) { const p2 = el('p'); p2.append(el('span', 'lbl', 'Ausblick & Risiken '), el('br'), document.createTextNode(a.ausblick)); card.append(p2); }
-    return card;
-  }) : [el('div', 'card empty', 'Keine Aktien geflaggt. Im Telegram-Chat mit /flag TICKER hinzufügen.')]));
+  $('aktien').replaceChildren(...(st.length ? st.map(stockCard) : [el('div', 'card empty', 'Keine Aktien geflaggt. Im Telegram-Chat mit /flag TICKER hinzufügen.')]));
+
+  for (const key of ['top10', 'ki10']) {
+    const list = r[key] || [];
+    $(key).replaceChildren(...(list.length ? list.map(a => {
+      const d = dirOf(a.pct), tile = el('div', 'tile');
+      tile.append(el('div', 'n', a.name || a.symbol), el('div', 'tk', a.symbol || ''),
+        el('div', 'v', a.kurs != null ? num.format(a.kurs) : '–'), el('div', 'pct ' + d, a.pct != null ? fmtPct(a.pct) : '–'));
+      const s = spark(a.verlauf, d); if (s) tile.append(s);
+      if (a.notiz) tile.append(el('div', 'note', a.notiz));
+      return tile;
+    }) : [el('div', 'empty', 'In diesem Bericht noch nicht enthalten.')]));
+  }
 
   const rad = r.radar || [];
   $('radar').replaceChildren(...(rad.length ? rad.map(x => {
