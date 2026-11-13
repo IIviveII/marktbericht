@@ -1,0 +1,655 @@
+{
+ "zeit": "2026-11-13T16:30:00+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-off",
+ "kurz": "Risk-off: Die Aktienindizes gaben im 12-Stunden-Zeitraum nach (S&P 500 -0,9 %, Nasdaq 100 -1,9 %), der VIX stieg um 11 % auf ca. 20,7. Belastend wirken der Rücktritt von Nvidia-CEO Huang, ein starker Abverkauf bei AMD und Broadcom und Renditen von über 5 %, da eine Fed-Zinserhöhung im Dezember fast eingepreist ist. Bitcoin fiel unter 70.000 $, Brent stieg auf ca. 96,7 $.",
+ "maerkte": [
+  {
+   "gruppe": "Indizes",
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 7521.7,
+   "pct": -0.92,
+   "verlauf": [
+    7521.8,
+    7521.7
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 27757.9,
+   "pct": -1.87,
+   "verlauf": [
+    27757.9,
+    27757.9
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 26734.17,
+   "pct": -0.31,
+   "verlauf": [
+    26694.47,
+    26795.1,
+    26810.82,
+    26777.94,
+    26753.27,
+    26745.66,
+    26762.96,
+    26737.21,
+    26734.17
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 6380.14,
+   "pct": -0.46,
+   "verlauf": [
+    6380.68,
+    6402.68,
+    6411.33,
+    6397.92,
+    6389.59,
+    6385.94,
+    6388.77,
+    6380.45,
+    6380.14
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 61142.35,
+   "pct": 0.56,
+   "verlauf": [
+    61669.18,
+    61842.81,
+    61816.72,
+    61231.05,
+    61247.55,
+    61184.55,
+    61156.09,
+    61142.35
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 20.72,
+   "pct": 10.86,
+   "verlauf": [
+    18.97,
+    18.49,
+    18.35,
+    18.25,
+    18.32,
+    18.04,
+    19.34,
+    20.63,
+    20.72
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 96.69,
+   "pct": 1.34,
+   "verlauf": [
+    95.63,
+    95.79,
+    96.46,
+    95.9,
+    96.44,
+    95.64,
+    95.7,
+    96.19,
+    96.09,
+    96.72,
+    96.86,
+    96.7,
+    96.69
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3888.4,
+   "pct": -0.92,
+   "verlauf": [
+    3917.1,
+    3908.5,
+    3905.0,
+    3902.0,
+    3900.5,
+    3905.6,
+    3895.7,
+    3897.2,
+    3892.9,
+    3885.1,
+    3898.2,
+    3889.4,
+    3888.4
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.1,
+   "pct": -0.24,
+   "verlauf": [
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.11,
+    1.1,
+    1.1
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "US 10J-Rendite (%)",
+   "symbol": "^TNX",
+   "kurs": 5.13,
+   "pct": 0.47,
+   "verlauf": [
+    5.15,
+    5.14,
+    5.13
+   ]
+  },
+  {
+   "gruppe": "Krypto",
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 68566.3,
+   "pct": -0.46,
+   "verlauf": [
+    68508.08,
+    68052.97,
+    69005.14,
+    68517.56,
+    68644.4,
+    69028.41,
+    69278.99,
+    69253.24,
+    69135.4,
+    69483.45,
+    68940.6,
+    68572.63,
+    68566.3
+   ]
+  }
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 160.22,
+   "pct": -3.51,
+   "verlauf": [
+    160.27,
+    160.22
+   ],
+   "notiz": "Bestätigt: Kursdruck nach Rücktritt von CEO Jensen Huang; Quartalszahlen am Dienstag."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 521.46,
+   "pct": -0.32,
+   "verlauf": [
+    521.74,
+    521.46
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 358.04,
+   "pct": 0.89,
+   "verlauf": [
+    357.92,
+    358.04
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 295.8,
+   "pct": -0.99,
+   "verlauf": [
+    296.09,
+    295.8
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 265.87,
+   "pct": -0.59,
+   "verlauf": [
+    266.03,
+    265.87
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 627.33,
+   "pct": 0.6,
+   "verlauf": [
+    628.29,
+    627.33
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 343.57,
+   "pct": -5.71,
+   "verlauf": [
+    343.74,
+    343.57
+   ],
+   "notiz": "Vermutet: Gewinnmitnahmen nach der Rotation aus Nvidia am Vortag, dazu steigende Renditen."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 395.75,
+   "pct": -2.44,
+   "verlauf": [
+    395.63,
+    395.75
+   ],
+   "notiz": "Vermutet: Sog der Chip-Schwäche."
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 387.95,
+   "pct": -2.43,
+   "verlauf": [
+    387.9,
+    387.95
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 592.54,
+   "pct": 0.44,
+   "verlauf": [
+    592.47,
+    592.54
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 160.22,
+   "pct": -3.51,
+   "verlauf": [
+    160.27,
+    160.22
+   ],
+   "notiz": "Bestätigt: Kursdruck nach Rücktritt von CEO Jensen Huang; Quartalszahlen am Dienstag."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 521.46,
+   "pct": -0.32,
+   "verlauf": [
+    521.74,
+    521.46
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 295.8,
+   "pct": -0.99,
+   "verlauf": [
+    296.09,
+    295.8
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 627.33,
+   "pct": 0.6,
+   "verlauf": [
+    628.29,
+    627.33
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 343.57,
+   "pct": -5.71,
+   "verlauf": [
+    343.74,
+    343.57
+   ],
+   "notiz": "Vermutet: Gewinnmitnahmen nach der Rotation aus Nvidia am Vortag, dazu steigende Renditen."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 395.75,
+   "pct": -2.44,
+   "verlauf": [
+    395.63,
+    395.75
+   ],
+   "notiz": "Vermutet: Sog der Chip-Schwäche."
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 535.24,
+   "pct": -8.6,
+   "verlauf": [
+    534.69,
+    535.24
+   ],
+   "notiz": "Vermutet: Gewinnmitnahmen nach dem Vortagesplus, Chip-Sektor schwach bei Rendite über 5 %."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 166.1,
+   "pct": -3.18,
+   "verlauf": [
+    166.13,
+    166.1
+   ],
+   "notiz": "Vermutet: Hochbewertete KI-Werte leiden unter steigenden Renditen."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 123.26,
+   "pct": -3.06,
+   "verlauf": [
+    123.4,
+    123.26
+   ],
+   "notiz": "Vermutet: Mitgezogen von KI-Infrastruktur-Schwäche."
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1480.88,
+   "pct": -1.08,
+   "verlauf": [
+    1480.38,
+    1480.88
+   ],
+   "notiz": ""
+  }
+ ],
+ "aktien": [
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "kurs": 228.37,
+   "pct": 0.63,
+   "verlauf": [
+    228.37,
+    228.37
+   ],
+   "kennzahlen": {
+    "Marktkap.": "ca. 42 Mrd $ (abgeleitet: Kurs × ca. 182 Mio Aktien)",
+    "KGV": "nicht aussagekräftig (Verlust) (erw. ca. 32)",
+    "52W-Hoch": "258,41",
+    "52W-Tief": "189,69",
+    "vs. 50-Tage": "+9,9 %",
+    "vs. 200-Tage": "+4,6 %",
+    "Seit Jahresbeginn": "-9,2 %"
+   },
+   "warum": "Bestätigt: Die Aktie sprang am 10.11. nach den Zahlen zum 2. Quartal (Umsatz 1,5 Mrd $, Net Bookings -18 % auf 1,6 Mrd $, Verlust je Aktie 0,29 $ statt erwartet 0,86 $) um bis zu 10,6 % und schloss bei 224,19 $ (+8,1 %), weil das Management die Vorbestellungen von GTA VI als „weit über den Erwartungen“ beschrieb (Motley Fool, 24/7 Wall St). Bestätigt: Die Jahresprognose von 8,0–8,2 Mrd $ Net Bookings blieb unverändert; Q3 soll 3,35–3,50 Mrd $ bringen. Im 12-Stunden-Zeitraum bewegte sich die Aktie kaum (+0,6 %) und hielt sich damit gegen den schwachen Gesamtmarkt (Nasdaq 100 -1,9 %). Vermutet: Anleger positionieren sich vor dem Launch am 19.11. und weichen aus dem KI-Sektor in Einzelgeschichten aus.",
+   "news": [
+    {
+     "zeit": "10.11.",
+     "titel": "Why Take-Two stock's got game today",
+     "quelle": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/10/why-take-two-stock-s-got-game-today/"
+    },
+    {
+     "zeit": "09.–10.11.",
+     "titel": "Take-Two Q2 2027: GTA VI Is the Whole Bet Now",
+     "quelle": "24/7 Wall St",
+     "url": "https://247wallst.com/cards/take-two-interactive-q2-2027-earnings-ttwo-01m712jtt7dtqmd3g0kxygyrkz"
+    },
+    {
+     "zeit": "09.11.",
+     "titel": "Take-Two Q2 Net Bookings fall 18% to $1.60 Billion as attention shifts to GTA VI",
+     "quelle": "Panabee",
+     "url": "https://www.panabee.com/news/take-two-interactive-earnings-q2-2027"
+    },
+    {
+     "zeit": "09.11.",
+     "titel": "Take-Two Q2 FY27 Ergebnisse: Umsatz und EPS unter Whisper-Zahl",
+     "quelle": "Shacknews",
+     "url": "https://shacknews.com/article/151309/take-two-interactive-ttwo-q2-2027-earnings-results"
+    },
+    {
+     "zeit": "offen",
+     "titel": "GTA VI: Review-Embargo laut Berichten am 18.11. (unbestätigt)",
+     "quelle": "tech-insider.org",
+     "url": "https://tech-insider.org/gta-6-review-embargo-two-windows-buyer-timeline-2026/"
+    }
+   ],
+   "analysten": "Stand überwiegend Mai 2026 (keine Quelle nach den Q2-Zahlen gefunden): Konsens „Moderate Buy“, durchschnittliches Kursziel ca. 280–288 $, Spanne ca. 272–368 $ (MarketBeat/TIKR). Einzelne: Morgan Stanley Overweight 280 $, Wedbush Outperform 300 $, Wells Fargo Overweight 287 $ (22.05.), Bank of America bis 368 $ (Juni). BTIG senkte auf 262 $ von 313 $ (Datum unklar). Aktuelle Kursziele nach den Zahlen vom 9.11. nicht verifiziert.",
+   "chancen": [
+    "GTA VI (Start 19.11.) mit laut Management „beispiellosen“ Vorbestellungen; Sensor Tower schätzt 9,69 Mio Einheiten bzw. 942 Mio $ (Drittschätzung)",
+    "Sehr starkes 2. Halbjahr bereits angekündigt (Q3-Guidance 3,35–3,50 Mrd $ vs. 1,76 Mrd $ Vorjahr)",
+    "Bewertung mit ca. 32x erwartetem Gewinn laut Motley Fool unter dem 3-Jahres-Schnitt von 56x",
+    "Starke Serien wie NBA 2K27 und wiederkehrende Umsätze"
+   ],
+   "risiken": [
+    "Extreme Abhängigkeit von einem einzigen Launch; Verschiebung oder schwache Reviews träfen den Kurs hart (frühere Verschiebung: ca. -8 %)",
+    "Prognose wurde vor dem Launch nicht angehoben; sie setzt eine scharfe Beschleunigung im 2. Halbjahr voraus",
+    "Kurzfristige Schulden stiegen auf 629 Mio $ (von 30 Mio $), Marketingkosten fallen vor den Einnahmen an",
+    "Zinsangst (10J-Rendite über 5 %, Fed-Zinserhöhung im Dezember eingepreist) belastet Wachstumsbewertungen"
+   ],
+   "technik": "Kurs 228,37 $ liegt rund 10 % über dem 50-Tage-Schnitt (ca. 207,9) und etwa 5 % über dem 200-Tage-Schnitt (ca. 218,4): kurzfristig Erholung nach den Zahlen. Das 52W-Hoch liegt bei 258,41 $ (ca. 12 % entfernt), das 52W-Tief bei 189,69 $; seit Jahresbeginn -9,2 %.",
+   "termine": [
+    {
+     "zeit": "18.11. (unbestätigt)",
+     "termin": "Mögliches Review-Embargo GTA VI"
+    },
+    {
+     "zeit": "19.11.",
+     "termin": "GTA VI Release (PS5, Xbox Series X|S)"
+    },
+    {
+     "zeit": "Februar 2027 (voraussichtlich, nicht bestätigt)",
+     "termin": "Q3-Zahlen FY27"
+    }
+   ],
+   "ausblick": "Die kommende Woche wird von GTA VI dominiert: Review-Scores, erste Verkaufsmeldungen und Server-Stabilität zum Start. Makroseitig bleiben Nvidia-Zahlen (Dienstag) und die Zinserhöhungserwartung für Dezember Störfaktoren. Eine Anhebung der Prognose wurde erst nach dem Launch in Aussicht gestellt."
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "Nvidia-CEO Huang tritt zurück",
+   "was": "Jensen Huang legte sein Amt nach Berichten über Affären nieder (laut CNBC auch mit einer Frau, die US-Geheimdienste als mögliche chinesische Spionin einstufen). CFO Colette Kress ist Interim-CEO. Die Aktie fiel am Donnerstag zeitweise um bis zu 14 % und schloss rund 4 % tiefer; Nvidia verlor ca. 490 Mrd $ Börsenwert. Quartalszahlen folgen am Dienstag.",
+   "wirkung": "Belastet Nvidia und den KI-Chip-Sektor; Unsicherheit über Führung und China-Bezug erhöht die Schwankung vor den Zahlen. Vermutet: Teile des Geldes rotierten kurz zu AMD/Broadcom, am Freitag drehte das.",
+   "richtung": "down",
+   "assets": [
+    "Nvidia",
+    "Halbleiter",
+    "Nasdaq"
+   ],
+   "quellen": [
+    {
+     "name": "CNBC Live 12./13.11.",
+     "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+    },
+    {
+     "name": "Yahoo Finance Live 13.11.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+    }
+   ]
+  },
+  {
+   "titel": "Renditen über 5 %, Fed-Zinserhöhung im Dezember erwartet",
+   "was": "Die 10-jährige US-Rendite stieg auf ca. 5,13–5,16 %. CME FedWatch sieht laut CNBC ca. 87 % für +25 Bp im Dezember (13 % für +50 Bp). Fed-Gouverneurin Bowman sagte, Zinserhöhungen könnten nötig sein. Erzeugerpreise stiegen im Oktober um 0,3 % (erwartet 0,4 %), im Jahresvergleich 6,5 %.",
+   "wirkung": "Belastet hoch bewertete Wachstums- und KI-Werte, stützt den Dollar; Anleihen unter Druck. Der VIX stieg um ca. 11 % auf ca. 20,7.",
+   "richtung": "down",
+   "assets": [
+    "US-Staatsanleihen",
+    "Tech/KI",
+    "Nasdaq"
+   ],
+   "quellen": [
+    {
+     "name": "CNBC Live",
+     "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+    },
+    {
+     "name": "Yahoo Finance Live",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+    }
+   ]
+  },
+  {
+   "titel": "Chip-Werte unter Druck: AMD und Broadcom stark im Minus",
+   "was": "AMD fiel im Zeitraum um ca. 8,6 %, Broadcom um ca. 5,7 %, TSMC -2,4 %. Reuters/CNBC meldeten am Morgen Abgaben von über 2,5 % bei AMD und Broadcom. Ein konkreter Einzelgrund wurde nicht gefunden.",
+   "wirkung": "Zieht Nasdaq 100 (-1,9 %) herunter. Vermutet: Gewinnmitnahmen nach der Vortagesrotation plus Zinsdruck.",
+   "richtung": "down",
+   "assets": [
+    "AMD",
+    "Broadcom",
+    "TSMC",
+    "Nasdaq 100"
+   ],
+   "quellen": [
+    {
+     "name": "CNBC Live",
+     "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin fällt unter 70.000 $",
+   "was": "Bitcoin rutschte erstmals seit knapp drei Monaten unter 70.000 $ (Tief nahe 68.000 $), im November über 10 % im Minus, sechste Wochenverlustserie in Sicht.",
+   "wirkung": "Risikoaversion und hohe Realzinsen belasten Krypto.",
+   "richtung": "down",
+   "assets": [
+    "Bitcoin",
+    "Krypto"
+   ],
+   "quellen": [
+    {
+     "name": "Yahoo Finance Live",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+    }
+   ]
+  },
+  {
+   "titel": "Yen über 160 je Dollar",
+   "was": "Der Yen fiel am Donnerstag über 160 je Dollar; Finanzminister Katayama warnte vor möglichem Eingreifen.",
+   "wirkung": "Interventionsrisiko kann Carry-Trades und den Nikkei (aktuell +0,6 %) bewegen.",
+   "richtung": "mixed",
+   "assets": [
+    "JPY",
+    "Nikkei"
+   ],
+   "quellen": [
+    {
+     "name": "CNBC Live",
+     "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "titel": "Take-Two vor GTA-VI-Start",
+   "was": "Nach den Zahlen vom 9.11. sprang die Aktie am 10.11. um 8 %; GTA VI erscheint am 19.11.",
+   "wirkung": "Einzelwert-Katalysator für Spielebranche (Sony, Microsoft) und Take-Two selbst.",
+   "richtung": "mixed",
+   "assets": [
+    "Take-Two",
+    "Gaming"
+   ],
+   "quellen": [
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/10/why-take-two-stock-s-got-game-today/"
+    }
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "zeit": "Wochenende",
+   "termin": "Keine Börsenhandelstage; Nachrichtenlage zu Nvidia/CEO-Nachfolge beobachten",
+   "wichtig": false
+  },
+  {
+   "zeit": "17.11.",
+   "termin": "Nvidia Q3-Zahlen (ohne festen CEO)",
+   "wichtig": true
+  },
+  {
+   "zeit": "18.11. (unbestätigt)",
+   "termin": "GTA VI Review-Embargo",
+   "wichtig": true
+  },
+  {
+   "zeit": "19.11.",
+   "termin": "GTA VI Release",
+   "wichtig": true
+  },
+  {
+   "zeit": "Dezember",
+   "termin": "Fed-Sitzung, Zinserhöhung erwartet",
+   "wichtig": true
+  }
+ ],
+ "luecken": [
+  "Kein Reuters-/Bloomberg-Schlussbericht für den 13.11. gefunden; Marktbild aus CNBC und Yahoo Finance Live (zwei Quellen, Zahlen intraday).",
+  "Gründe für AMD (-8,6 %) und Broadcom (-5,7 %) nicht bestätigt, daher als vermutet gekennzeichnet; Quellen zum Thema waren veraltet.",
+  "Nvidia-CEO-Rücktritt und Spionage-Vorwürfe: Details stammen aus CNBC; weitere Quelle nicht verifiziert.",
+  "Take-Two: Marktkapitalisierung nicht direkt gefunden, abgeleitet aus Aktienzahl (ca. 182 Mio, Rückrechnung aus Value-Research-Angabe vom November). Erwartetes KGV ca. 32 laut Motley Fool; trailing KGV wegen Verlusten nicht aussagekräftig. Dividende: keine gefunden.",
+  "Take-Two Analysten: Kursziele nach den Q2-Zahlen nicht auffindbar (Suchen: price target raised November 2026, consensus after Q2, upgrade downgrade). Angaben stammen aus Mai–Juni 2026.",
+  "Volumen vs. 20-Tage-Schnitt nicht angegeben, da der heutige Handelstag noch läuft.",
+  "Geopolitik: keine tagesaktuelle Quelle zu Brent-Anstieg/Nahost gefunden; Brent +1,3 % nicht erklärt. Termin-Kalender der nächsten 24h nicht abgerufen (Wochenende).",
+  "Take-Two-Quartalstermin Q3 (Februar 2027) nicht bestätigt."
+ ]
+}
