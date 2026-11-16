@@ -1,0 +1,926 @@
+{
+ "zeit": "2026-11-16T15:16:14+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-off",
+ "kurz": "Risk-off: Eine Chip-Verkaufswelle in Asien (Taiex ca. -6 %, Kospi ca. -4 %), der Abgang von Nvidia-Chef Huang und steigende Zinserwartungen (US-10J ca. 5,1 %, Fed-Erhöhung im Dezember erwartet) belasten die Futures. Im Fokus stehen Nvidia-Zahlen am Dienstag, das FOMC-Protokoll am Mittwoch und der GTA-VI-Launch am Donnerstag. Deine Aktie Take-Two steht vor dem Launch bei 227,82 $ (Freitagsschluss, +6 % in 5 Tagen).",
+ "maerkte": [
+  {
+   "gruppe": "Indizes",
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 7561.67,
+   "pct": -0.4,
+   "verlauf": [
+    7642.27,
+    7631.0,
+    7627.0,
+    7608.85,
+    7594.88,
+    7591.86,
+    7521.8,
+    7529.52,
+    7537.78,
+    7544.08,
+    7557.05,
+    7550.02,
+    7560.87,
+    7561.67
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 27943.74,
+   "pct": -1.22,
+   "verlauf": [
+    28477.09,
+    28375.86,
+    28390.93,
+    28319.87,
+    28255.86,
+    28286.72,
+    27757.9,
+    27760.25,
+    27832.87,
+    27859.74,
+    27949.98,
+    27901.25,
+    27937.37,
+    27943.74
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 26731.78,
+   "pct": -0.09,
+   "verlauf": [
+    26774.63,
+    26759.07,
+    26723.28,
+    26748.27,
+    26719.77,
+    26732.36,
+    26731.78
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 6378.66,
+   "pct": -0.13,
+   "verlauf": [
+    6385.48,
+    6384.28,
+    6377.35,
+    6381.99,
+    6374.37,
+    6378.57,
+    6378.66
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 59662.02,
+   "pct": -0.86,
+   "verlauf": [
+    60052.7,
+    59909.98,
+    59722.72,
+    59700.77,
+    59662.02
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 20.7,
+   "pct": 7.37,
+   "verlauf": [
+    19.96,
+    19.99,
+    20.01,
+    20.11,
+    20.6,
+    20.71,
+    20.7
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 94.16,
+   "pct": -0.63,
+   "verlauf": [
+    95.15,
+    95.27,
+    95.67,
+    96.48,
+    95.92,
+    92.83,
+    92.76,
+    95.47,
+    94.94,
+    94.51,
+    94.23,
+    94.16,
+    94.16
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3868.2,
+   "pct": -0.23,
+   "verlauf": [
+    3876.8,
+    3870.1,
+    3840.2,
+    3854.8,
+    3859.7,
+    3863.4,
+    3860.8,
+    3876.1,
+    3877.1,
+    3873.0,
+    3868.9,
+    3867.6,
+    3868.2
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.1,
+   "pct": -0.04,
+   "verlauf": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "US 10J-Rendite (%)",
+   "symbol": "^TNX",
+   "kurs": 5.14,
+   "pct": -0.25,
+   "verlauf": [
+    5.14,
+    5.14
+   ]
+  },
+  {
+   "gruppe": "Krypto",
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 64128.45,
+   "pct": -1.55,
+   "verlauf": [
+    65051.92,
+    64761.38,
+    64399.81,
+    64651.82,
+    64932.5,
+    64401.17,
+    64271.13,
+    64518.32,
+    64377.28,
+    64093.09,
+    64112.35,
+    64150.49,
+    64128.45
+   ]
+  }
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 162.85,
+   "pct": -2.01,
+   "verlauf": [
+    165.49,
+    163.97,
+    165.88,
+    164.57,
+    164.02,
+    166.04,
+    160.27,
+    160.24,
+    161.46,
+    161.35,
+    162.67,
+    162.17,
+    162.82,
+    162.85
+   ],
+   "notiz": "Bestätigt: Wochenverlust ca. 13 %, schlechteste Woche seit April 2025 nach dem Abgang von CEO Jensen Huang (12.11.); Zahlen am Di nach US-Börsenschluss (ZeroHedge, heygotrade)."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 523.88,
+   "pct": 0.17,
+   "verlauf": [
+    528.66,
+    528.97,
+    526.02,
+    523.74,
+    522.51,
+    523.11,
+    521.74,
+    523.07,
+    524.07,
+    524.6,
+    524.89,
+    524.6,
+    524.31,
+    523.88
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 356.27,
+   "pct": 0.39,
+   "verlauf": [
+    358.12,
+    356.43,
+    355.75,
+    355.63,
+    355.48,
+    354.89,
+    357.92,
+    358.48,
+    357.99,
+    358.03,
+    357.98,
+    356.67,
+    356.4,
+    356.27
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 295.77,
+   "pct": -0.98,
+   "verlauf": [
+    298.65,
+    301.92,
+    301.33,
+    300.18,
+    299.4,
+    298.75,
+    296.09,
+    294.6,
+    295.42,
+    295.55,
+    295.39,
+    295.16,
+    295.79,
+    295.77
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 266.66,
+   "pct": -0.29,
+   "verlauf": [
+    269.78,
+    269.52,
+    269.32,
+    269.1,
+    268.1,
+    267.46,
+    266.03,
+    264.96,
+    265.48,
+    265.67,
+    265.71,
+    265.69,
+    266.61,
+    266.66
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 641.69,
+   "pct": 2.9,
+   "verlauf": [
+    625.8,
+    624.22,
+    624.85,
+    622.52,
+    621.52,
+    623.59,
+    628.29,
+    632.76,
+    633.82,
+    637.81,
+    641.16,
+    641.39,
+    641.99,
+    641.69
+   ],
+   "notiz": "Teilweise bestätigt: Erholung nach JPMorgan-Aufnahme in die Focus List (9.11.); Grund für den Freitag selbst nicht gefunden."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 347.01,
+   "pct": -4.76,
+   "verlauf": [
+    368.3,
+    363.24,
+    364.68,
+    365.17,
+    361.88,
+    364.38,
+    343.74,
+    342.12,
+    345.51,
+    345.53,
+    346.46,
+    345.13,
+    346.62,
+    347.01
+   ],
+   "notiz": "Vermutet: Mitgerissen vom Chip-Ausverkauf (Taiex ca. -6 %, Kospi ca. -4 % am Montag); konkreter Einzelgrund nicht bestätigt."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 398.73,
+   "pct": -1.67,
+   "verlauf": [
+    409.74,
+    405.77,
+    408.29,
+    406.92,
+    405.55,
+    405.65,
+    395.63,
+    395.73,
+    395.88,
+    396.7,
+    398.53,
+    398.42,
+    398.63,
+    398.73
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 390.22,
+   "pct": -1.82,
+   "verlauf": [
+    392.6,
+    391.43,
+    392.0,
+    390.04,
+    397.89,
+    397.62,
+    387.9,
+    390.82,
+    390.71,
+    390.83,
+    391.75,
+    390.23,
+    390.14,
+    390.22
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 592.94,
+   "pct": 0.53,
+   "verlauf": [
+    592.16,
+    592.27,
+    590.54,
+    590.0,
+    589.64,
+    589.92,
+    592.47,
+    593.58,
+    593.98,
+    592.5,
+    591.08,
+    591.55,
+    593.12,
+    592.94
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 162.85,
+   "pct": -2.01,
+   "verlauf": [
+    165.49,
+    163.97,
+    165.88,
+    164.57,
+    164.02,
+    166.04,
+    160.27,
+    160.24,
+    161.46,
+    161.35,
+    162.67,
+    162.17,
+    162.82,
+    162.85
+   ],
+   "notiz": "Bestätigt: Wochenverlust ca. 13 %, schlechteste Woche seit April 2025 nach dem Abgang von CEO Jensen Huang (12.11.); Zahlen am Di nach US-Börsenschluss (ZeroHedge, heygotrade)."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 523.88,
+   "pct": 0.17,
+   "verlauf": [
+    528.66,
+    528.97,
+    526.02,
+    523.74,
+    522.51,
+    523.11,
+    521.74,
+    523.07,
+    524.07,
+    524.6,
+    524.89,
+    524.6,
+    524.31,
+    523.88
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 295.77,
+   "pct": -0.98,
+   "verlauf": [
+    298.65,
+    301.92,
+    301.33,
+    300.18,
+    299.4,
+    298.75,
+    296.09,
+    294.6,
+    295.42,
+    295.55,
+    295.39,
+    295.16,
+    295.79,
+    295.77
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 641.69,
+   "pct": 2.9,
+   "verlauf": [
+    625.8,
+    624.22,
+    624.85,
+    622.52,
+    621.52,
+    623.59,
+    628.29,
+    632.76,
+    633.82,
+    637.81,
+    641.16,
+    641.39,
+    641.99,
+    641.69
+   ],
+   "notiz": "Teilweise bestätigt: Erholung nach JPMorgan-Aufnahme in die Focus List (9.11.); Grund für den Freitag selbst nicht gefunden."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 347.01,
+   "pct": -4.76,
+   "verlauf": [
+    368.3,
+    363.24,
+    364.68,
+    365.17,
+    361.88,
+    364.38,
+    343.74,
+    342.12,
+    345.51,
+    345.53,
+    346.46,
+    345.13,
+    346.62,
+    347.01
+   ],
+   "notiz": "Vermutet: Mitgerissen vom Chip-Ausverkauf (Taiex ca. -6 %, Kospi ca. -4 % am Montag); konkreter Einzelgrund nicht bestätigt."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 398.73,
+   "pct": -1.67,
+   "verlauf": [
+    409.74,
+    405.77,
+    408.29,
+    406.92,
+    405.55,
+    405.65,
+    395.63,
+    395.73,
+    395.88,
+    396.7,
+    398.53,
+    398.42,
+    398.63,
+    398.73
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 534.06,
+   "pct": -8.75,
+   "verlauf": [
+    589.41,
+    577.77,
+    581.73,
+    584.22,
+    582.89,
+    585.58,
+    534.69,
+    526.66,
+    525.9,
+    526.27,
+    534.11,
+    531.64,
+    534.09,
+    534.06
+   ],
+   "notiz": "Vermutet: Fortsetzung der Chip-Schwäche (nach -17 % am 5.11. wegen KI-Regulierungssorgen nach den Midterms, Motley Fool/Trefis); Grund für den Freitag nicht gefunden."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 167.99,
+   "pct": -2.09,
+   "verlauf": [
+    172.13,
+    172.46,
+    172.04,
+    171.93,
+    171.59,
+    171.56,
+    166.13,
+    167.71,
+    168.04,
+    168.12,
+    169.25,
+    168.27,
+    167.98,
+    167.99
+   ],
+   "notiz": "Vermutet: Mitgezogen von der Tech-/KI-Schwäche; kein eigener Grund gefunden."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 125.35,
+   "pct": -1.38,
+   "verlauf": [
+    128.34,
+    127.39,
+    127.4,
+    127.28,
+    126.58,
+    127.15,
+    123.4,
+    123.04,
+    124.08,
+    124.43,
+    125.45,
+    125.19,
+    125.39,
+    125.35
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1495.16,
+   "pct": -0.13,
+   "verlauf": [
+    1526.84,
+    1510.0,
+    1515.58,
+    1503.0,
+    1496.29,
+    1497.12,
+    1480.38,
+    1476.05,
+    1481.6,
+    1481.9,
+    1491.98,
+    1487.45,
+    1494.8,
+    1495.16
+   ],
+   "notiz": ""
+  }
+ ],
+ "aktien": [
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "kurs": 227.82,
+   "pct": 0.38,
+   "verlauf": [
+    225.68,
+    226.85,
+    228.0,
+    227.79,
+    227.59,
+    226.93,
+    228.37,
+    229.16,
+    229.48,
+    228.93,
+    228.62,
+    227.2,
+    227.86,
+    227.82
+   ],
+   "kennzahlen": {
+    "Marktkap.": "ca. 43 Mrd. $ (227,82 $ × 189,5 Mio. verwässerte Aktien, eigene Rechnung)",
+    "KGV": "GAAP negativ (n. a.); erw. ca. 32 (FY27) bzw. ca. 21 (FY28) auf Basis der UBS-Schätzungen für bereinigtes EPS (7,21 $ / 10,86 $)",
+    "52W-Hoch": "265,94",
+    "52W-Tief": "183,86",
+    "vs. 50-Tage": "+9,6 %",
+    "vs. 200-Tage": "+4,3 %",
+    "Seit Jahresbeginn": "-9,5 %",
+    "Volumen vs. Schnitt": "0,9x"
+   },
+   "warum": "Kursdaten: Take-Two schloss am Freitag bei 227,82 $ (+0,4 % zum Vortag), auf 5 Handelstage +6,0 %; die US-Börse war im 12-Stunden-Fenster geschlossen, Pre-Market-Daten liegen nicht vor. Bestätigt: Der Kurs sprang am 10.11. um rund 8 % (207,42 → 224,60 $), nachdem Take-Two am 9.11. Zahlen vorgelegt hatte: Net Bookings Q2 1,60 Mrd. $ (-18 %, leicht unter Prognose, NBA 2K27 schwach), aber Vorbestellungen für GTA VI laufen laut CEO Zelnick „weit über den ursprünglichen Erwartungen“; die Jahresprognose (Net Bookings 8,0–8,2 Mrd. $) wurde bestätigt, Q3 mit 3,35–3,50 Mrd. $ angesetzt (SEC-8-K, Stocktwits). Bestätigt: GTA VI erscheint am 19.11. für PS5 und Xbox Series X|S. Vermutet: Der Kursanstieg spiegelt die Vorfreude auf den Launch und Erleichterung über die Vorbestellungen wider; der schwächere Gesamtmarkt (Chip-/KI-Schwäche, Zinsangst) bremst den Kurs bisher kaum. Vermutet: Das Risiko „Sell the news“ nach dem Launch ist erhöht, da bereits viel eingepreist ist.",
+   "news": [
+    {
+     "zeit": "09.11.",
+     "titel": "Take-Two Q2 FY2027: Net Bookings 1,60 Mrd. $, Prognose FY27 bestätigt, GTA VI am 19.11.",
+     "quelle": "SEC Form 8-K (Take-Two)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm"
+    },
+    {
+     "zeit": "10.11.",
+     "titel": "GTA-VI-Vorbestellungen „weit über den Erwartungen“; UBS senkt Kursziel auf 295 $ (Buy)",
+     "quelle": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-in-focus-as-gta-vi-preorders-run-far-in-excess-of-expectations-ubs-trims-target/cNGukq1R9JR"
+    },
+    {
+     "zeit": "10.11.",
+     "titel": "TTWO Q2 Earnings Call Highlights: GTA-VI-Ausblick und Buchungstrends",
+     "quelle": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ttwo-q2-earnings-call-highlights-142000934.html"
+    },
+    {
+     "zeit": "10.11.",
+     "titel": "Q2-FY2027-Telefonkonferenz (Transkript)",
+     "quelle": "Motley Fool",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/take-two-ttwo-q2-2027-earnings-call-transcript/"
+    },
+    {
+     "zeit": "Nov. 2026",
+     "titel": "Mixed results, GTA-VI-Vorbestellungen stark (Folien zur Q2)",
+     "quelle": "Investing.com",
+     "url": "https://uk.investing.com/news/stock-market-news/taketwo-q2-fy2027-slides-mixed-results-gta-vi-preorders-soar-93CH-4969891"
+    }
+   ],
+   "analysten": "Stand: Quellen vom 10.11.2026 und älter, uneinheitlich. Konsens überwiegend Kaufen (eine Zählung: 25 Buy, 3 Outperform, 1 Hold, 1 Underperform bei 29 Analysten); durchschnittliches Kursziel je nach Quelle ca. 258–294 $ (TIKR 277 $, MarketBeat 294 $, Benzinga 258 $), Spanne bis 368 $ (Bank of America, 23.06.). Jüngste Aktion: UBS (Schoell) senkt am 10.11. das Ziel auf 295 $ von 300 $, Buy, und kürzt die EPS-Schätzungen. Weitere ältere Ziele: Jefferies 300 $ Buy, Piper Sandler 280 $ Overweight. Keine bestätigte Herabstufung im November gefunden.",
+   "chancen": [
+    "GTA VI Launch am 19.11. mit starken Vorbestellungen (ca. 7,7 Mio. digitale Vorbestellungen Stand 3.11. laut Drittanbieterdaten, nicht bestätigt)",
+    "Prognose wurde noch nicht angehoben – Spielraum für Anhebung nach Launch",
+    "Operativer Cashflow über 1 Mrd. $ und Netto-Cash zum Jahresende erwartet (Management)"
+   ],
+   "risiken": [
+    "Hohe Erwartungen: „Sell the news“ nach Launch möglich",
+    "Schwäche im Bestandsgeschäft: NBA 2K27 und wiederkehrende Ausgaben (-9 %) unter Plan",
+    "Technische Probleme oder Kritik beim Launch; weiter schwacher Gesamtmarkt bei steigenden Zinsen"
+   ],
+   "technik": "Trend aufwärts: Kurs 9,6 % über der 50-Tage- und 4,3 % über der 200-Tage-Linie; 14 % unter dem 52-Wochen-Hoch (265,94 $), 24 % über dem 52-Wochen-Tief (183,86 $). Das Volumen am Freitag lag leicht unter dem 20-Tage-Schnitt.",
+   "termine": [
+    {
+     "zeit": "19.11.2026",
+     "termin": "Launch Grand Theft Auto VI (PS5, Xbox Series X|S)"
+    },
+    {
+     "zeit": "Anfang Februar 2027 (vermutet)",
+     "termin": "Q3-FY2027-Zahlen (Termin nicht bestätigt)"
+    }
+   ],
+   "ausblick": "In den nächsten Tagen zählen Launch-Reaktionen, erste Verkaufs- und Spielerzahlen von Rockstar sowie Analystenkommentare nach dem 19.11. Makro: Nvidia-Zahlen (17.11.), FOMC-Protokoll (18.11.) und die Zinserwartung für Dezember beeinflussen den Wachstumssektor insgesamt."
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "Chip-Ausverkauf in Asien vor Nvidia-Zahlen",
+   "was": "Taiex ca. -6 %, Kospi ca. -4 %, Nikkei -2,4 % (Advantest, Tokyo Electron); US-Futures: S&P ca. -0,5 %, Nasdaq ca. -1,3 %. Nvidia hatte die schlechteste Woche seit April 2025 nach dem Abgang von CEO Huang (12.11.). Zahlen am Di nach US-Schluss; Optionen preisen ca. 7,8 % Bewegung ein.",
+   "wirkung": "Belastet Halbleiter und KI-Werte (NVDA, AVGO, TSM, AMD, Asien-Indizes), Nasdaq stärker als S&P; Risk-off. Stützt VIX (+7 %).",
+   "richtung": "down",
+   "assets": [
+    "Halbleiter",
+    "Nasdaq",
+    "Taiex/Kospi/Nikkei"
+   ],
+   "quellen": [
+    {
+     "name": "ZeroHedge (Quelle für Marktstände; nur diese eine Quelle)",
+     "url": "https://www.zerohedge.com/markets/futures-slide-asian-chip-carnage-greets-nvidias-first-post-huang-earnings-week"
+    },
+    {
+     "name": "heygotrade Wochenausblick",
+     "url": "https://heygotrade.com/en/news/weekly-economic-outlook-2026-11-16"
+    }
+   ]
+  },
+  {
+   "titel": "Zinsangst: Fed-Erhöhung im Dezember eingepreist",
+   "was": "Die 10-jährige US-Rendite liegt bei ca. 5,1 % (Wochenanstieg ca. 28 Basispunkte); Märkte rechnen mit einer Zinserhöhung im Dezember, Waller deutete Offenheit für 50 Bp an. Fed-Chef Warsh spricht heute 12:00 ET, FOMC-Protokoll am Mi.",
+   "wirkung": "Hohe Renditen drücken Bewertungen von Wachstums- und Tech-Aktien, stützen den Dollar; Gold und Bitcoin unter Druck.",
+   "richtung": "down",
+   "assets": [
+    "US-Staatsanleihen",
+    "Tech",
+    "Gold",
+    "Bitcoin"
+   ],
+   "quellen": [
+    {
+     "name": "heygotrade Wochenausblick",
+     "url": "https://heygotrade.com/en/news/weekly-economic-outlook-2026-11-16"
+    },
+    {
+     "name": "Investing.com Wochenvorschau",
+     "url": "https://investing.com/analysis/economic-week-ahead-inflation-fed-minutes-and-nvidia-earnings-take-centre-stage-200691606"
+    }
+   ]
+  },
+  {
+   "titel": "Iran-Konflikt: Angriff auf Bahrain, Minen nahe Hormus",
+   "was": "Laut ZeroHedge griff Iran einen Luftwaffenstützpunkt in Bahrain an, Tanker liefen nahe der Straße von Hormus auf Minen. Brent bleibt dennoch bei ca. 94–95 $, Goldman erwartet 2027 einen Ölüberschuss. Zweite Bestätigung für das aktuelle Ereignis nicht gefunden.",
+   "wirkung": "Ölpreis und Energieaktien mit Aufwärtsrisiko, Schiffs-/Versicherungskosten; bislang kaum Preisreaktion.",
+   "richtung": "mixed",
+   "assets": [
+    "Öl (Brent)",
+    "Energie",
+    "Gold"
+   ],
+   "quellen": [
+    {
+     "name": "ZeroHedge",
+     "url": "https://www.zerohedge.com/markets/futures-slide-asian-chip-carnage-greets-nvidias-first-post-huang-earnings-week"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia ohne Jensen Huang: erste Zahlen am Dienstag",
+   "was": "Huang trat am 12.11. zurück (laut heygotrade), CFO Colette Kress führt kommissarisch; Konsens-EPS 2,49 $, Umsatz ca. 109 Mrd. $. Die FT berichtet laut ZeroHedge, Huang spreche über ein Comeback; Finanzminister Bessent soll auf einen Umbruch gedrängt haben (nicht unabhängig bestätigt).",
+   "wirkung": "Richtungsweisend für den gesamten KI-Handel (Chips, Hyperscaler, Zulieferer).",
+   "richtung": "mixed",
+   "assets": [
+    "NVDA",
+    "KI-Werte",
+    "Halbleiter"
+   ],
+   "quellen": [
+    {
+     "name": "heygotrade",
+     "url": "https://heygotrade.com/en/news/weekly-economic-outlook-2026-11-16"
+    },
+    {
+     "name": "ZeroHedge",
+     "url": "https://www.zerohedge.com/markets/futures-slide-asian-chip-carnage-greets-nvidias-first-post-huang-earnings-week"
+    }
+   ]
+  },
+  {
+   "titel": "GTA VI erscheint Donnerstag",
+   "was": "Take-Two bestätigte den Launch am 19.11. (PS5, Xbox) und Vorbestellungen „weit über den Erwartungen“; Jahresprognose 8,0–8,2 Mrd. $ Net Bookings.",
+   "wirkung": "Positiv für Take-Two und Sony/Microsoft-Konsolen, Spielebranche; Sell-the-news-Risiko.",
+   "richtung": "up",
+   "assets": [
+    "TTWO",
+    "Spielebranche"
+   ],
+   "quellen": [
+    {
+     "name": "SEC 8-K Take-Two",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm"
+    },
+    {
+     "name": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-in-focus-as-gta-vi-preorders-run-far-in-excess-of-expectations-ubs-trims-target/cNGukq1R9JR"
+    }
+   ]
+  },
+  {
+   "titel": "Anthropic-Börsengang diese Woche",
+   "was": "Preisfestlegung laut Wochenvorschau am 18.11., Handelsbeginn am 19.11. an der Nasdaq; zudem mögliches Treffen Trump/Xi/Putin am 19.11. (nur in einer Quelle).",
+   "wirkung": "Test für die Risikobereitschaft bei KI-Titeln; Liquiditätsabzug aus anderen Tech-Werten möglich.",
+   "richtung": "mixed",
+   "assets": [
+    "KI-Werte",
+    "Nasdaq"
+   ],
+   "quellen": [
+    {
+     "name": "heygotrade",
+     "url": "https://heygotrade.com/en/news/weekly-economic-outlook-2026-11-16"
+    }
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "zeit": "15:00",
+   "termin": "Fed-Chef Warsh Eröffnungsrede (12:00 ET); Williams 15:05, Hammack 20:15 Berliner Zeit",
+   "wichtig": true
+  },
+  {
+   "zeit": "Di 17.11. 14:30",
+   "termin": "US-Einzelhandelsumsatz Oktober (Konsens +0,2 %)",
+   "wichtig": true
+  },
+  {
+   "zeit": "Di 17.11. nachbörslich",
+   "termin": "Nvidia-Quartalszahlen",
+   "wichtig": true
+  },
+  {
+   "zeit": "Mi 18.11. 20:00",
+   "termin": "FOMC-Protokoll (28.10.)",
+   "wichtig": true
+  },
+  {
+   "zeit": "Do 19.11.",
+   "termin": "GTA-VI-Launch; Anthropic-Handelsbeginn (erwartet)",
+   "wichtig": false
+  }
+ ],
+ "luecken": [
+  "US-Börsen waren im 12-Stunden-Fenster geschlossen: %-Werte für US-Indizes und US-Aktien = Freitagsschluss vs. Donnerstag; Pre-Market-Daten liegen nicht vor. Futures-Angaben nur aus ZeroHedge.",
+  "Nikkei-%: Yahoo-Fensterwert (-0,9 %), laut ZeroHedge Tagesminus ca. -2,4 %.",
+  "Marktkap. TTWO selbst berechnet (ca.); aktuelle Quellen zeigten uneinheitliche Werte (ca. 35,6 Mrd. $ am 3.11. bei ca. 195 $).",
+  "TTWO-KGV: Forward-KGV aus Quellen uneinheitlich/veraltet (23–35); angegebene Werte beruhen auf UBS-EPS-Schätzungen (bereinigt). Dividende: keine gefunden.",
+  "Analystenkonsens TTWO: Quellen widersprüchlich und teils undatiert (Ziele 258–294 $).",
+  "Eine Reuters-Syndikation sprach von einer Prognoseanhebung am 12.11.; die SEC-Mitteilung vom 9.11. zeigt jedoch eine bestätigte (Net Bookings) Prognose – Widerspruch ungeklärt, SEC-Dokument maßgeblich.",
+  "Geopolitik (Iran/Bahrain/Hormus), Huang-Rücktritt und Trump-Xi-Putin-Treffen: nur je eine Quelle (ZeroHedge, heygotrade); Reuters/AP/Bloomberg waren nicht abrufbar.",
+  "Gründe für Bewegungen bei META, AMD, PLTR, AVGO am Freitag nicht bestätigt.",
+  "worldmonitor.app, Fed/EZB-Seiten und Investing.com-Terminkalender nicht direkt abgerufen."
+ ]
+}
