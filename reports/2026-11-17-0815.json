@@ -1,0 +1,804 @@
+{
+ "zeit": "2026-11-17T08:15:00+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-off",
+ "kurz": "Der Montag brachte einen scharfen KI-/Chip-Ausverkauf: S&P 500 -1,9 %, Nasdaq 100 -2,7 %, Halbleiterindex -5,3 %, VIX +21 %. Auslöser sind die Nvidia-Führungskrise nach Huangs Rücktritt, neue US-Exportregeln und Zweifel an KI-Investitionen, dazu eine Fed-Zinserhöhung im Dezember und 10J-Renditen über 5 %. Die Stimmung ist klar risk-off; heute Abend sind die Nvidia-Zahlen der nächste Test.",
+ "maerkte": [
+  {
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 7416.59,
+   "pct": -1.91,
+   "verlauf": [
+    7458.98,
+    7486.5098,
+    7453.96,
+    7424.4702,
+    7421.5898,
+    7412.27,
+    7420.1899,
+    7416.5898
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 27197.15,
+   "pct": -2.65,
+   "verlauf": [
+    27294.9844,
+    27508.0371,
+    27334.6133,
+    27238.9551,
+    27272.1055,
+    27202.7051,
+    27204.7734,
+    27197.1523
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 26598.64,
+   "pct": -0.59,
+   "verlauf": [
+    26774.6309,
+    26759.0703,
+    26723.2793,
+    26748.2695,
+    26719.7695,
+    26730.4902,
+    26703.1602,
+    26646.0,
+    26629.75,
+    26598.6406
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 6348.35,
+   "pct": -0.61,
+   "verlauf": [
+    6385.48,
+    6384.2798,
+    6377.3501,
+    6381.9902,
+    6374.3701,
+    6378.7202,
+    6371.7202,
+    6360.3799,
+    6354.79,
+    6348.3501
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 58860.43,
+   "pct": -1.41,
+   "verlauf": [
+    58989.3203,
+    58958.5195,
+    58956.6719,
+    58846.6016,
+    59025.4883,
+    59058.5508,
+    58965.4805,
+    58860.4297
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 22.91,
+   "pct": 14.61,
+   "verlauf": [
+    20.01,
+    20.11,
+    20.6,
+    20.63,
+    21.04,
+    20.78,
+    21.03,
+    22.0,
+    22.78,
+    23.42,
+    23.42,
+    22.88,
+    22.91
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 91.7,
+   "pct": -0.69,
+   "verlauf": [
+    92.35,
+    91.84,
+    92.13,
+    91.96,
+    91.86,
+    91.7,
+    91.64,
+    91.76,
+    91.68,
+    91.64,
+    91.7
+   ],
+   "gruppe": "Rohstoffe"
+  },
+  {
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3874.1,
+   "pct": 0.19,
+   "verlauf": [
+    3854.5,
+    3859.0,
+    3865.8,
+    3855.3,
+    3869.0,
+    3872.8,
+    3878.0,
+    3883.6001,
+    3873.5,
+    3877.1001,
+    3874.1001
+   ],
+   "gruppe": "Rohstoffe"
+  },
+  {
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.1008,
+   "pct": 0.02,
+   "verlauf": [
+    1.0999,
+    1.1,
+    1.0997,
+    1.1004,
+    1.1,
+    1.0997,
+    1.1006,
+    1.1011,
+    1.1006,
+    1.1014,
+    1.101,
+    1.1008,
+    1.1008
+   ],
+   "gruppe": "Währung & Zinsen"
+  },
+  {
+   "name": "US 10J-Rendite",
+   "symbol": "^TNX",
+   "kurs": 5.12,
+   "pct": -0.64,
+   "verlauf": [
+    5.133,
+    5.113,
+    5.137,
+    5.141,
+    5.137,
+    5.117,
+    5.121
+   ],
+   "gruppe": "Währung & Zinsen"
+  },
+  {
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 64617.99,
+   "pct": -0.59,
+   "verlauf": [
+    65014.0586,
+    65241.0312,
+    65256.5312,
+    64816.7891,
+    64566.3984,
+    64684.8008,
+    64438.1211,
+    64995.8711,
+    64981.5703,
+    64773.3203,
+    64490.3203,
+    64618.0,
+    64617.9883
+   ],
+   "gruppe": "Krypto"
+  }
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 156.14,
+   "pct": -4.1,
+   "verlauf": [
+    159.57,
+    159.76,
+    156.97,
+    155.135,
+    156.32,
+    155.5198,
+    156.16,
+    156.14
+   ],
+   "notiz": "Bestätigt: Nvidia-Chef Huang trat am 12.11. zurück; am Montag zusätzlich neue US-Exportregeln für Fernzugriff auf KI-Chips und Zweifel an KI-Investitionen (TheStreet)."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 517.99,
+   "pct": -1.21,
+   "verlauf": [
+    518.625,
+    525.98,
+    522.59,
+    521.13,
+    519.49,
+    517.74,
+    518.07,
+    517.99
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 352.78,
+   "pct": -1.02,
+   "verlauf": [
+    353.86,
+    354.9,
+    352.96,
+    352.79,
+    351.93,
+    351.935,
+    352.7,
+    352.78
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 283.72,
+   "pct": -4.08,
+   "verlauf": [
+    286.07,
+    288.615,
+    286.7625,
+    285.55,
+    285.21,
+    284.48,
+    283.8,
+    283.72
+   ],
+   "notiz": "Vermutet: Mitgerissen vom breiten KI-/Tech-Ausverkauf (Nasdaq 100 -2,7 %); kein eigener Unternehmensgrund gefunden."
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 257.75,
+   "pct": -3.32,
+   "verlauf": [
+    259.43,
+    261.87,
+    258.405,
+    257.875,
+    257.97,
+    257.96,
+    257.8,
+    257.75
+   ],
+   "notiz": "Vermutet: Mitgerissen vom breiten Tech-Ausverkauf; kein eigener Grund gefunden."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 626.41,
+   "pct": -2.43,
+   "verlauf": [
+    621.82,
+    631.21,
+    626.9049,
+    624.17,
+    625.415,
+    626.53,
+    626.61,
+    626.41
+   ],
+   "notiz": "Vermutet: Mitgerissen vom Tech-Ausverkauf."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 333.4,
+   "pct": -3.81,
+   "verlauf": [
+    329.42,
+    336.4,
+    333.46,
+    331.275,
+    333.675,
+    332.47,
+    333.71,
+    333.4
+   ],
+   "notiz": "Bestätigt: Teil des Chip-Ausverkaufs (SOX -5,3 %)."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 373.45,
+   "pct": -6.32,
+   "verlauf": [
+    373.3,
+    379.26,
+    376.29,
+    375.26,
+    377.15,
+    373.56,
+    373.455,
+    373.45
+   ],
+   "notiz": "Bestätigt: Teil des Chip-Ausverkaufs (SOX -5,3 %); neue US-Exportregeln für Fernzugriff auf KI-Chips."
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 379.74,
+   "pct": -2.67,
+   "verlauf": [
+    377.81,
+    381.475,
+    378.49,
+    378.4,
+    377.04,
+    377.62,
+    379.78,
+    379.74
+   ],
+   "notiz": "Vermutet: Mitgerissen vom Tech-Ausverkauf."
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 592.85,
+   "pct": -0.05,
+   "verlauf": [
+    594.74,
+    594.59,
+    593.25,
+    592.18,
+    590.665,
+    592.34,
+    592.95,
+    592.85
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 156.14,
+   "pct": -4.1,
+   "verlauf": [
+    159.57,
+    159.76,
+    156.97,
+    155.135,
+    156.32,
+    155.5198,
+    156.16,
+    156.14
+   ],
+   "notiz": "Bestätigt: Nvidia-Chef Huang trat am 12.11. zurück; am Montag zusätzlich neue US-Exportregeln für Fernzugriff auf KI-Chips und Zweifel an KI-Investitionen (TheStreet)."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 517.99,
+   "pct": -1.21,
+   "verlauf": [
+    518.625,
+    525.98,
+    522.59,
+    521.13,
+    519.49,
+    517.74,
+    518.07,
+    517.99
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 283.72,
+   "pct": -4.08,
+   "verlauf": [
+    286.07,
+    288.615,
+    286.7625,
+    285.55,
+    285.21,
+    284.48,
+    283.8,
+    283.72
+   ],
+   "notiz": "Vermutet: Mitgerissen vom breiten KI-/Tech-Ausverkauf (Nasdaq 100 -2,7 %); kein eigener Unternehmensgrund gefunden."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 626.41,
+   "pct": -2.43,
+   "verlauf": [
+    621.82,
+    631.21,
+    626.9049,
+    624.17,
+    625.415,
+    626.53,
+    626.61,
+    626.41
+   ],
+   "notiz": "Vermutet: Mitgerissen vom Tech-Ausverkauf."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 333.4,
+   "pct": -3.81,
+   "verlauf": [
+    329.42,
+    336.4,
+    333.46,
+    331.275,
+    333.675,
+    332.47,
+    333.71,
+    333.4
+   ],
+   "notiz": "Bestätigt: Teil des Chip-Ausverkaufs (SOX -5,3 %)."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 373.45,
+   "pct": -6.32,
+   "verlauf": [
+    373.3,
+    379.26,
+    376.29,
+    375.26,
+    377.15,
+    373.56,
+    373.455,
+    373.45
+   ],
+   "notiz": "Bestätigt: Teil des Chip-Ausverkaufs (SOX -5,3 %); neue US-Exportregeln für Fernzugriff auf KI-Chips."
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 504.28,
+   "pct": -5.58,
+   "verlauf": [
+    505.6,
+    513.62,
+    506.3,
+    505.7633,
+    508.445,
+    504.81,
+    504.37,
+    504.28
+   ],
+   "notiz": "Bestätigt: Teil des Chip-Ausverkaufs (SOX -5,3 %)."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 160.39,
+   "pct": -4.52,
+   "verlauf": [
+    161.19,
+    164.355,
+    162.4,
+    161.36,
+    160.79,
+    159.515,
+    160.39,
+    160.39
+   ],
+   "notiz": "Vermutet: Mitgerissen vom KI-Ausverkauf und Zweifeln an KI-Ausgaben."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 119.09,
+   "pct": -5.03,
+   "verlauf": [
+    119.4875,
+    121.135,
+    119.5,
+    118.982,
+    119.09,
+    118.46,
+    119.045,
+    119.09
+   ],
+   "notiz": "Vermutet: Rechenzentrums-/KI-Infrastruktur unter Druck (Zweifel an KI-Investitionen ab 2027)."
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1406.79,
+   "pct": -5.89,
+   "verlauf": [
+    1420.3,
+    1437.09,
+    1426.11,
+    1417.53,
+    1422.13,
+    1415.64,
+    1406.51,
+    1406.79
+   ],
+   "notiz": "Bestätigt: Teil des Chip-Ausverkaufs (SOX -5,3 %); Vermutet: Sorge um Chip-Ausrüster-Nachfrage."
+  }
+ ],
+ "aktien": [
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "kurs": 213.47,
+   "pct": -6.32,
+   "verlauf": [
+    221.625,
+    221.53,
+    220.08,
+    218.792,
+    214.44,
+    214.5925,
+    213.48,
+    213.47
+   ],
+   "kennzahlen": {
+    "Marktkap.": "ca. 39,6 Mrd. $ (Kurs × ca. 185,7 Mio. Aktien)",
+    "KGV": "aktuell nicht belastbar ermittelt (Quellen widersprüchlich); ca. 20 auf Basis JPM-EPS GJ2028 von 10,59 $ (eigene Rechnung)",
+    "52W-Hoch": "258,41 $",
+    "52W-Tief": "189,69 $",
+    "vs. 50-Tage": "+2,7 %",
+    "vs. 200-Tage": "-2,3 %",
+    "Seit Jahresbeginn": "-15,2 %",
+    "Volumen vs. Schnitt": "1,8x",
+    "Dividende": "keine"
+   },
+   "warum": "Bestätigt: Take-Two verlor am Montag rund 5 bis 6 % (Tagesschluss laut TipRanks -5,18 %; unsere 12h-Rechnung -6,3 %). Laut TipRanks liegt das nicht an Take-Two selbst, sondern am breiten KI-/Tech-Ausverkauf (Nasdaq 100 -2,7 %, VIX +21 %). Bestätigt: Zuvor hatte der Konzern am 9.11. Q2-Nettobuchungen von 1,60 Mrd. $ (-18 % gg. Vorjahr, unter der eigenen Spanne von 1,62-1,67 Mrd. $, laut Unternehmen wegen schwächerem Start von NBA 2K27) gemeldet, die Jahresprognose von 8,0-8,2 Mrd. $ aber bestätigt; die Aktie schloss am 9.11. laut BeInCrypto bei 207,40 $ (-3,5 %). Vermutet: Vor dem GTA-VI-Start am 19.11. nehmen Anleger Gewinne mit ('buy the rumor, sell the news'); einzelne Analysten nennen dieses Risiko. Das Volumen lag das 1,8-fache über dem 20-Tage-Schnitt.",
+   "news": [
+    {
+     "zeit": "16.11.",
+     "titel": "Take-Two Stock (TTWO) Drops over 5% Ahead of GTA VI Release",
+     "quelle": "TipRanks",
+     "url": "https://www.tipranks.com/news/take-two-stock-ttwo-drops-over-5-ahead-of-gta-vi-release"
+    },
+    {
+     "zeit": "16.11.",
+     "titel": "Take-Two Interactive stock jumps as this analyst sees upside beyond GTA VI launch (Jefferies Buy, Ziel 300 $)",
+     "quelle": "Invezz",
+     "url": "https://invezz.com/news/2026/11/16/take-two-interactive-stock-jumps-as-this-analyst-sees-upside-beyond-gta-vi-launch/"
+    },
+    {
+     "zeit": "09.11.",
+     "titel": "Take-Two reports results for fiscal second quarter 2027 (Net Bookings 1,60 Mrd. $, Prognose 8,0-8,2 Mrd. $ bestätigt)",
+     "quelle": "SEC 8-K / Take-Two IR",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm"
+    },
+    {
+     "zeit": "10.11.",
+     "titel": "Why Take-Two Stock's Got Game Today",
+     "quelle": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/10/why-take-two-stock-s-got-game-today/"
+    },
+    {
+     "zeit": "Nov.",
+     "titel": "Analysts Boost Take-Two Interactive Stock Forecasts Ahead of Grand Theft Auto VI Debut",
+     "quelle": "Benzinga",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63277432/analysts-boost-take-two-interactive-stock-forecasts-ahead-of-grand-theft-auto-vi-debut"
+    },
+    {
+     "zeit": "16.11.",
+     "titel": "AI Stocks Drag the S&P 500 Back Toward the November 5th Lows (Marktumfeld)",
+     "quelle": "TheStreet",
+     "url": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows"
+    }
+   ],
+   "analysten": "Konsens laut TipRanks 'Strong Buy' (17 Buy-Ratings in 3 Monaten), Durchschnittsziel ca. 290,50 $ (Benzinga: 287 $; TickZen 6.11.: 285 $, Spanne 170-330 $). Jüngste Einschätzungen (Stand Mitte Nov., Daten teils nicht exakt belegt): BofA Buy, Ziel 330 $; JPMorgan Overweight, Ziel 310 $ (ca. 29x EPS GJ2028 von 10,59 $, ca. 34 Mio. verkaufte Spiele erwartet); Jefferies Buy, Ziel 300 $ (Wochenende vor 16.11.); DA Davidson Buy, 300 $; UBS Buy, Ziel gesenkt auf 295 $ von 300 $; Oppenheimer Outperform, 280 $; Roth Ziel 272 $ von 300 $ (Rating unklar); Freedom Capital Buy, 255 $.",
+   "chancen": [
+    "Bestätigt: GTA VI erscheint am 19.11. (PS5/Xbox); Vorbestellungen laut Management über den Erwartungen (geschätzt 12,1 Mio. Einheiten)",
+    "Bestätigt: Q3-Buchungen für GJ2027 mit 3,35-3,50 Mrd. $ angesetzt (Vorjahr 1,76 Mrd. $)",
+    "Bestätigt: Analystenkonsens mit rund 35 % Aufwärtspotenzial zum Durchschnittsziel",
+    "Vermutet: Längerer Monetarisierungszyklus (GTA Online etc.) über den Launch hinaus (Jefferies-These)"
+   ],
+   "risiken": [
+    "Bestätigt: Breiter KI-/Tech-Ausverkauf und hohe Marktvolatilität (VIX 22,9)",
+    "Bestätigt: Q2-Buchungen unter eigener Spanne; Jahresprognose trotz Launch nicht angehoben",
+    "Vermutet: 'Sell the news' nach dem Launch; hohe Erwartungen (Konsens ca. 37 Mio. Einheiten im Startfenster laut Investing.com)",
+    "Vermutet: Zinserhöhungserwartungen (Fed Dezember, 10J-Rendite über 5 %) belasten hoch bewertete Wachstumsaktien"
+   ],
+   "technik": "Kurs 213,47 $ liegt +2,7 % über dem 50-Tage-Schnitt, aber 2,3 % unter dem 200-Tage-Schnitt; seit Jahresbeginn -15,2 %. Das 52W-Hoch (Schlusskurs 258,41 $) ist rund 17 % entfernt, das 52W-Tief (189,69 $) rund 13 % darunter; Trend seitwärts bis schwach.",
+   "termine": [
+    {
+     "zeit": "19.11.",
+     "termin": "Release Grand Theft Auto VI (PS5, Xbox Series X|S)"
+    },
+    {
+     "zeit": "bis ca. 23.11.",
+     "termin": "Erste Verkaufszahlen zu GTA VI erwartet (laut BofA, Quelle Stocktwits, nicht offiziell)"
+    },
+    {
+     "zeit": "Anf. Februar 2027",
+     "termin": "Q3-Zahlen GJ2027 (Datum noch nicht bestätigt)"
+    }
+   ],
+   "ausblick": "In den nächsten Tagen bestimmen der GTA-VI-Start am 19.11. und erste Verkaufs-/Nutzerzahlen die Aktie, daneben die Marktstimmung im KI-Ausverkauf und die Nvidia-Zahlen (17.11. nach US-Börsenschluss). Offen ist, ob der Launch die Erwartungen (ca. 34-37 Mio. Einheiten) übertrifft. Keine Anlageberatung."
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "KI-/Chip-Ausverkauf an Wall Street",
+   "was": "Am Montag fielen S&P 500 -1,9 %, Nasdaq 100 -2,7 %, Halbleiterindex SOX -5,3 %; VIX +21 % auf 23,4. Treiber laut TheStreet: Nvidia-Führungskrise, neue US-Exportregeln für Fernzugriff auf KI-Chips, gesenkte KI-Capex-Schätzungen (SemiAnalysis) ab 2027, Umschichtung vor dem erwarteten Anthropic-IPO.",
+   "wirkung": "Chips, KI-Hardware, Rechenzentrums-Zulieferer (Sandisk -8,6 %, Micron, Dell, Vertiv -7 bis -8,5 %) und breite Tech-Werte unter Druck; Volatilität steigt (risk-off). Europa folgte moderat (DAX -0,6 %), Nikkei -1,4 %.",
+   "richtung": "down",
+   "assets": [
+    "Halbleiter",
+    "Nasdaq 100",
+    "KI-Infrastruktur",
+    "VIX"
+   ],
+   "quellen": [
+    {
+     "name": "TheStreet",
+     "url": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia ohne CEO Huang - Zahlen heute",
+   "was": "Jensen Huang trat laut 8-K am 12.11. mit sofortiger Wirkung zurück; CFO Colette Kress ist Interims-CEO. Berichte nennen eine Untersuchung zu einer ausländischen Geheimdienst-Operation (nicht weiter bestätigt). Nvidia legt am 17.11. nach US-Börsenschluss Q3-Zahlen vor (Prognose 108 Mrd. $ ±2 %).",
+   "wirkung": "Nvidia verlor seit dem Oktoberhoch über 2 Bio. $ Börsenwert (TheStreet); die Zahlen und Aussagen zur Nachfolge sind der wichtigste Impuls für KI-Werte und den Nasdaq.",
+   "richtung": "mixed",
+   "assets": [
+    "NVDA",
+    "Halbleiter",
+    "KI-Werte"
+   ],
+   "quellen": [
+    {
+     "name": "SEC 8-K Nvidia",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/jensen-huang-resigns-as-nvidia-ceo-after-33-years-effective-immediately"
+    }
+   ]
+  },
+  {
+   "titel": "Zinsen: Fed-Erhöhung im Dezember eingepreist",
+   "was": "Laut TheStreet ist eine Zinserhöhung im Dezember per CME FedWatch voll eingepreist (ca. 26 Bp bis Dezember, 83 Bp bis Ende 2027); 10J-Rendite 5,13 %, 2J 4,83 %; Dollar auf höchstem Stand seit April 2025.",
+   "wirkung": "Hohe Renditen drücken Bewertungen von Wachstums-/Tech-Aktien; starker Dollar belastet Gold (niedrigster Schluss seit Sept. 2025) und Rohstoffe (Kupfer unter 6 $).",
+   "richtung": "down",
+   "assets": [
+    "US-Anleihen",
+    "USD",
+    "Gold",
+    "Tech"
+   ],
+   "quellen": [
+    {
+     "name": "TheStreet",
+     "url": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows"
+    },
+    {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/585522"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin und Krypto unter Druck",
+   "was": "Bitcoin-Futures fielen am Montag um 5,6 % auf rund 65.070 $; Coinbase und Robinhood verloren deutlich. Verbunden wird das mit der Umschichtung vor dem Anthropic-IPO (Vermutet).",
+   "wirkung": "Risikoaversion; Krypto-Aktien und Broker belastet.",
+   "richtung": "down",
+   "assets": [
+    "Bitcoin",
+    "Coinbase",
+    "Robinhood"
+   ],
+   "quellen": [
+    {
+     "name": "TheStreet",
+     "url": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows"
+    }
+   ]
+  },
+  {
+   "titel": "GTA VI startet am 19.11.",
+   "was": "Take-Two hat die Jahresprognose (8,0-8,2 Mrd. $ Net Bookings) bestätigt; Vorbestellungen laut Management über den Erwartungen. Aktie am Montag -5 %.",
+   "wirkung": "Impuls für Spielebranche (Take-Two, Sony, Microsoft); kurzfristig Gewinnmitnahme-Risiko.",
+   "richtung": "mixed",
+   "assets": [
+    "TTWO",
+    "Spiele-Sektor"
+   ],
+   "quellen": [
+    {
+     "name": "TipRanks",
+     "url": "https://www.tipranks.com/news/take-two-stock-ttwo-drops-over-5-ahead-of-gta-vi-release"
+    },
+    {
+     "name": "SEC 8-K Take-Two",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm"
+    }
+   ]
+  },
+  {
+   "titel": "Öl und Rohstoffe",
+   "was": "WTI -3,1 % auf 85,74 $ (TheStreet); Brent im 12h-Verlauf bei ca. 91,7 $. Gold fiel auf den tiefsten Schlusskurs seit September 2025. Zur aktuellen Iran-Lage fand die Recherche keine bestätigte Meldung für den 16./17.11.",
+   "wirkung": "Sinkende Energiepreise entlasten Inflationsängste leicht, werden aber vom starken Dollar und Zinsen überlagert.",
+   "richtung": "mixed",
+   "assets": [
+    "Brent",
+    "WTI",
+    "Gold",
+    "Kupfer"
+   ],
+   "quellen": [
+    {
+     "name": "TheStreet",
+     "url": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows"
+    }
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "zeit": "nach US-Börsenschluss (ca. 22:20 Uhr)",
+   "termin": "Nvidia Q3 FY2027 Zahlen, Call 23:00 Uhr Berlin (17.11., lt. mehrerer Quellen; einzelne Kalender nennen 18.11.)",
+   "wichtig": true
+  },
+  {
+   "zeit": "19.11.",
+   "termin": "GTA VI Release (Take-Two)",
+   "wichtig": true
+  },
+  {
+   "zeit": "diese Woche",
+   "termin": "Retail-Zahlen (Walmart, Target, Home Depot) und Fed-Protokoll: Termine nicht bestätigt",
+   "wichtig": false
+  }
+ ],
+ "luecken": [
+  "Aktuelle Iran-/Geopolitik-Lage für 16./17.11. nicht belegt (Suchen lieferten nur ältere Meldungen); worldmonitor.app nicht geprüft.",
+  "Bessent-Forderung nach externem Huang-Nachfolger nur durch TheStreet gemeldet, nicht bestätigt; die Affären-/Geheimdienst-Details zu Huang sind unbestätigt.",
+  "TTWO: aktuelles KGV nicht belastbar (Quellen 23x bis 93x, undatiert); forward-KGV ca. 20 ist eigene Rechnung mit JPM-EPS. Marktkap. aus Kurs × Aktienzahl berechnet.",
+  "TTWO-Analystendaten teils undatiert (Benzinga/Invezz-Seiten per WebFetch nicht abrufbar, 403); Q2-Ergebnis je Aktie in Quellen widersprüchlich (nicht genannt).",
+  "Eigene Suchen je geflaggter Aktie weniger als 6 geführt (ca. 8 insgesamt zu TTWO und Umfeld); Wirtschaftskalender der Woche nicht bestätigt.",
+  "Fed/EZB/Konjunkturdaten nur über TheStreet/TradingEconomics erfasst; Reuters/Bloomberg nicht direkt abrufbar.",
+  "Wegen unterschiedlicher Handelszeiten: DAX/Euro Stoxx Stand Montag 17:30 Uhr, Nikkei Stand Dienstag früh."
+ ]
+}
