@@ -1,0 +1,731 @@
+{
+ "zeit": "2026-11-22T08:10:00+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-off",
+ "kurz": "Der Freitag endete in einem scharfen Risk-off-Abverkauf: S&P 500 und Nasdaq 100 verloren deutlich, der VIX stieg auf ca. 35,9. Auslöser waren ein Reuters-Bericht über eine SEC-Prüfung bei Nvidia (-14 % am Tag), Sorgen vor einer Fed-Zinsanhebung und hohe Renditen. Take-Two hielt sich trotz GTA-VI-Rekordstart nur leicht im Plus.",
+ "maerkte": [
+  {
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 6910.39,
+   "pct": -2.95,
+   "verlauf": [
+    7120.57,
+    7071.3,
+    7023.49,
+    7016.4,
+    6963.72,
+    6942.01,
+    6918.45,
+    6910.39
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 25028.98,
+   "pct": -3.62,
+   "verlauf": [
+    25970.34,
+    25713.52,
+    25505.93,
+    25495.5,
+    25265.0,
+    25150.28,
+    25065.4,
+    25028.98
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 24802.78,
+   "pct": -1.04,
+   "verlauf": [
+    25062.73,
+    24921.78,
+    25066.73,
+    24989.12,
+    24912.7,
+    24917.68,
+    25044.76,
+    24873.78,
+    24839.47,
+    24802.78
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 5941.95,
+   "pct": -1.26,
+   "verlauf": [
+    6017.98,
+    5972.86,
+    6009.1,
+    5991.26,
+    5975.06,
+    5980.11,
+    6011.71,
+    5957.76,
+    5951.97,
+    5941.95
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 56436.65,
+   "pct": -1.06,
+   "verlauf": [
+    57038.9,
+    56801.79,
+    56775.04,
+    56973.59,
+    56545.17,
+    56652.43,
+    56576.41,
+    56436.65
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 35.89,
+   "pct": 24.19,
+   "verlauf": [
+    28.9,
+    29.87,
+    30.83,
+    30.3,
+    27.3,
+    30.27,
+    30.86,
+    31.95,
+    31.43,
+    34.21,
+    39.53,
+    35.89,
+    35.89
+   ],
+   "gruppe": "Indizes"
+  },
+  {
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 89.95,
+   "pct": 1.68,
+   "verlauf": [
+    88.46,
+    89.19,
+    89.43,
+    89.1,
+    88.45,
+    88.62,
+    88.88,
+    89.25,
+    89.62,
+    89.53,
+    90.2,
+    89.95,
+    89.95
+   ],
+   "gruppe": "Rohstoffe"
+  },
+  {
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3515.4,
+   "pct": -2.03,
+   "verlauf": [
+    3588.4,
+    3575.7,
+    3574.3,
+    3572.9,
+    3578.9,
+    3551.9,
+    3547.5,
+    3531.7,
+    3535.6,
+    3524.7,
+    3526.2,
+    3515.4,
+    3515.4
+   ],
+   "gruppe": "Rohstoffe"
+  },
+  {
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.1,
+   "pct": 0.11,
+   "verlauf": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ],
+   "gruppe": "Währung & Zinsen"
+  },
+  {
+   "name": "US 10J-Rendite (%)",
+   "symbol": "^TNX",
+   "kurs": 4.91,
+   "pct": -1.48,
+   "verlauf": [
+    4.99,
+    4.96,
+    4.95,
+    4.94,
+    4.95,
+    4.94,
+    4.91
+   ],
+   "gruppe": "Währung & Zinsen"
+  },
+  {
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 59025.45,
+   "pct": -2.15,
+   "verlauf": [
+    60319.73,
+    60347.97,
+    60024.39,
+    60086.0,
+    60075.31,
+    59980.35,
+    59362.19,
+    59216.86,
+    59184.07,
+    58783.48,
+    59023.8,
+    59042.51,
+    59025.45
+   ],
+   "gruppe": "Krypto"
+  }
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 125.53,
+   "pct": -9.51,
+   "verlauf": [
+    138.72,
+    136.66,
+    135.41,
+    135.79,
+    130.54,
+    128.29,
+    125.79,
+    125.53
+   ],
+   "notiz": "Kursrutsch nach Reuters-Bericht über SEC-Prüfung möglicher Bilanzprobleme (Freitag -14 %); Fehlverhalten nicht bestätigt."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 484.52,
+   "pct": -2.59,
+   "verlauf": [
+    497.39,
+    491.69,
+    488.52,
+    489.26,
+    487.34,
+    483.84,
+    485.01,
+    484.52
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 342.56,
+   "pct": -1.82,
+   "verlauf": [
+    348.91,
+    347.48,
+    345.6,
+    344.96,
+    343.0,
+    343.34,
+    342.68,
+    342.56
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 265.29,
+   "pct": -4.8,
+   "verlauf": [
+    278.67,
+    277.46,
+    273.45,
+    272.77,
+    270.11,
+    267.22,
+    265.68,
+    265.29
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 246.82,
+   "pct": -3.54,
+   "verlauf": [
+    255.88,
+    252.95,
+    251.01,
+    249.96,
+    247.57,
+    247.39,
+    247.15,
+    246.82
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 560.84,
+   "pct": -2.89,
+   "verlauf": [
+    577.52,
+    573.84,
+    570.98,
+    567.62,
+    562.7,
+    560.86,
+    561.46,
+    560.84
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 304.41,
+   "pct": -5.2,
+   "verlauf": [
+    321.1,
+    313.86,
+    307.19,
+    306.95,
+    305.24,
+    303.49,
+    304.17,
+    304.41
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 318.71,
+   "pct": -4.19,
+   "verlauf": [
+    332.64,
+    326.14,
+    322.04,
+    323.23,
+    320.37,
+    321.26,
+    319.55,
+    318.71
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 345.82,
+   "pct": -4.87,
+   "verlauf": [
+    363.51,
+    358.21,
+    352.3,
+    351.04,
+    347.48,
+    345.9,
+    346.15,
+    345.82
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 570.0,
+   "pct": -0.92,
+   "verlauf": [
+    575.29,
+    574.3,
+    571.15,
+    570.55,
+    567.73,
+    569.27,
+    570.43,
+    570.0
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 125.53,
+   "pct": -9.51,
+   "verlauf": [
+    138.72,
+    136.66,
+    135.41,
+    135.79,
+    130.54,
+    128.29,
+    125.79,
+    125.53
+   ],
+   "notiz": "Kursrutsch nach Reuters-Bericht über SEC-Prüfung möglicher Bilanzprobleme (Freitag -14 %); Fehlverhalten nicht bestätigt."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 484.52,
+   "pct": -2.59,
+   "verlauf": [
+    497.39,
+    491.69,
+    488.52,
+    489.26,
+    487.34,
+    483.84,
+    485.01,
+    484.52
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 265.29,
+   "pct": -4.8,
+   "verlauf": [
+    278.67,
+    277.46,
+    273.45,
+    272.77,
+    270.11,
+    267.22,
+    265.68,
+    265.29
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 560.84,
+   "pct": -2.89,
+   "verlauf": [
+    577.52,
+    573.84,
+    570.98,
+    567.62,
+    562.7,
+    560.86,
+    561.46,
+    560.84
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 304.41,
+   "pct": -5.2,
+   "verlauf": [
+    321.1,
+    313.86,
+    307.19,
+    306.95,
+    305.24,
+    303.49,
+    304.17,
+    304.41
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 318.71,
+   "pct": -4.19,
+   "verlauf": [
+    332.64,
+    326.14,
+    322.04,
+    323.23,
+    320.37,
+    321.26,
+    319.55,
+    318.71
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 424.39,
+   "pct": -6.56,
+   "verlauf": [
+    454.17,
+    436.43,
+    432.54,
+    434.81,
+    425.22,
+    425.83,
+    424.26,
+    424.39
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 143.49,
+   "pct": -3.76,
+   "verlauf": [
+    149.1,
+    146.05,
+    145.75,
+    146.8,
+    144.79,
+    143.8,
+    143.57,
+    143.49
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 101.19,
+   "pct": -4.77,
+   "verlauf": [
+    106.26,
+    103.67,
+    102.8,
+    102.6,
+    101.8,
+    101.62,
+    101.18,
+    101.19
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1266.22,
+   "pct": -2.61,
+   "verlauf": [
+    1300.1,
+    1290.48,
+    1272.34,
+    1284.96,
+    1268.73,
+    1265.04,
+    1268.25,
+    1266.22
+   ],
+   "notiz": "Vermutet: Mitverkauf im breiten Tech-/KI-Abverkauf nach der Nvidia-Meldung; konkrete eigene Nachricht nicht recherchiert."
+  }
+ ],
+ "aktien": [
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "kurs": 210.0,
+   "pct": 1.14,
+   "verlauf": [
+    207.63,
+    208.1,
+    210.95,
+    205.31,
+    208.49,
+    211.75,
+    210.22,
+    210.0
+   ],
+   "kennzahlen": {
+    "Marktkap.": "ca. 39–40 Mrd. $",
+    "KGV": "nicht aussagekräftig (Gewinn GAAP negativ), erw. ca. 21–35 je nach Quelle",
+    "52W-Hoch": "258,41",
+    "52W-Tief": "189,69",
+    "vs. 50-Tage": "+1,2 %",
+    "vs. 200-Tage": "-3,9 %",
+    "Seit Jahresbeginn": "-16,5 %",
+    "Volumen vs. Schnitt": "2,3x"
+   },
+   "warum": "Bestätigt: Take-Two und Rockstar meldeten am 20.11. für GTA VI einen Rekord-Starttag mit ca. 3,79 Mrd. $ weltweitem Einzelhandelsumsatz und über 32,5 Mio. vorab verkauften Exemplaren. Bestätigt: Die Aktie sprang am Mittwoch nach starken Reviews um gut 6 %, fiel am Donnerstag (Launch) um 3,7 % ('sell the news') und schloss am Freitag mit 210,00 $ leicht im Plus (+0,6 %), trotz des Rekords und trotz des -3,7 %-S&P-500-Abverkaufs. Vermutet: Der Rekord war bei hohen Erwartungen weitgehend eingepreist; defensive Gewinner-Rolle gegenüber dem KI-/Tech-Abverkauf stützte die relative Stärke. Das hohe Volumen (2,3x Schnitt) passt zu starker Umschichtung.",
+   "news": [
+    {
+     "zeit": "20.11.",
+     "titel": "Take-Two shatters sales record as 'GTA VI' launches to massive fanfare",
+     "quelle": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/taketwo-shatters-sales-record-as-gta-vi-launches-to-massive-fanfare-5042505"
+    },
+    {
+     "zeit": "20.11.",
+     "titel": "GTA VI boasts a record-breaking launch with $3.79 billion in day-one sales",
+     "quelle": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/20/gta-vi-boasts-a-record-breaking-launch-with-usd3-79-billion-in-day-one-sales-is-it-time-to-buy-take-two-stock/"
+    },
+    {
+     "zeit": "19.11.",
+     "titel": "Take-Two stock falls 3.7% on GTA 6 launch day after a 6% jump on reviews",
+     "quelle": "Nacionale",
+     "url": "https://www.nacionale.com/en/articles/why-is-take-two-stock-down-today-gta-6-launch-day-ttwo-sell-the-news"
+    },
+    {
+     "zeit": "18.11.",
+     "titel": "Take-Two shares climb as GTA VI reviews impress ahead of launch",
+     "quelle": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/two-shares-climb-gta-vi-131412264.html"
+    }
+   ],
+   "analysten": "Stand laut Benzinga (Seite undatiert, daher nur Anhaltspunkt): 27 Analysten, 26 Buy / 1 Hold, Ø-Kursziel ca. 259 $ (ca. +19 % Potenzial); Investing.com nennt abweichend ca. 284 $. Piper Sandler: Overweight, Ziel 280 $ (Datum unklar). Aktuelle Hoch-/Herabstufungen nach dem Launch nicht gefunden.",
+   "chancen": [
+    "Rekordstart (3,79 Mrd. $ am ersten Tag) deutet auf starke Umsatz- und Gewinnrevision im Geschäftsjahr",
+    "Laufende Nachverkäufe, spätere PC-Version und Online-Inhalte als zusätzliche Umsatzquellen (Vermutet)",
+    "Relative Stärke im Marktabverkauf; Kurs über 50-Tage-Linie"
+   ],
+   "risiken": [
+    "Sell-the-news: hohe Erwartungen bereits eingepreist",
+    "Anhaltender Tech-Abverkauf, hohe Renditen (10J ca. 4,9 %) und mögliche Zinsanhebung belasten Wachstumsbewertungen",
+    "Aktie liegt unter 200-Tage-Linie und ca. 19 % unter dem 52W-Hoch"
+   ],
+   "technik": "Kurzfristig stabil über der 50-Tage-Linie (+1,2 %), aber noch 3,9 % unter der 200-Tage-Linie; 52W-Spanne 189,69–258,41 $, Kurs im unteren Drittel (ca. 30 % der Spanne). Seit Jahresbeginn -16,5 %.",
+   "termine": [
+    {
+     "zeit": "nicht bestätigt",
+     "termin": "Nächste Quartalszahlen (Q3 GJ27) – Termin nicht gefunden; Vermutet: Anfang Februar 2027"
+    }
+   ],
+   "ausblick": "Beobachten: erste Wochenend-/Folgeverkäufe und Spielerzahlen zu GTA VI, Analystenanhebungen von Zielen/Schätzungen, und ob die Aktie bei weiterem Tech-Verkaufsdruck stabil bleibt."
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "Nvidia -14 % nach SEC-Bericht",
+   "was": "Reuters berichtet laut Suchergebnissen, die SEC-Durchsetzungsabteilung prüfe mögliche Bilanzfragen bei Nvidia; Aktie -14 % auf 125,53 $ (Wochenverlust ca. 23 %). Fehlverhalten nicht festgestellt. Nvidia-Führungsturbulenzen laut weiteren Meldungen zusätzlich belastend (nicht unabhängig bestätigt).",
+   "wirkung": "Zieht KI-/Halbleiter-Werte (AMD, Broadcom, TSMC) und Nasdaq 100 (-3,6 % im Fenster) nach unten; VIX +24 % auf ca. 35,9.",
+   "richtung": "down",
+   "assets": [
+    "NVDA",
+    "KI-Halbleiter",
+    "Nasdaq 100",
+    "VIX"
+   ],
+   "quellen": [
+    {
+     "name": "Schwab Marktupdate",
+     "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-little-changed-as-investors-await-nvidia-earnings-5028292"
+    }
+   ]
+  },
+  {
+   "titel": "Zinsanhebungs-Sorge der Fed",
+   "was": "Laut Berichten sehen fast alle Fed-Teilnehmer weitere Anhebungen als angemessen möglich; Dezember-Anhebung wird eingepreist (Stärke der Einpreisung nicht einheitlich belegt). US-10J-Rendite ca. 4,9 %.",
+   "wirkung": "Belastet Wachstums-/Tech-Bewertungen, stützt den Dollar; Gold -2 % im Fenster.",
+   "richtung": "down",
+   "assets": [
+    "Tech",
+    "Anleihen",
+    "Gold"
+   ],
+   "quellen": [
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/next-week-outlook-key-u-s-data-and-fed-insights-test-rate-hike-expectations"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/17/stock-market-primed-for-explosive-week-nvidia-federal-reserve/"
+    }
+   ]
+  },
+  {
+   "titel": "GTA VI Rekordstart",
+   "was": "Take-Two meldet 3,79 Mrd. $ Umsatz am ersten Tag, Aktie nur +0,6 %.",
+   "wirkung": "Positiv für Gaming-Sektor, im Gesamtmarkt kaum spürbar.",
+   "richtung": "mixed",
+   "assets": [
+    "TTWO",
+    "Gaming"
+   ],
+   "quellen": [
+    {
+     "name": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/taketwo-shatters-sales-record-as-gta-vi-launches-to-massive-fanfare-5042505"
+    }
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "zeit": "Mo 23.11. früh",
+   "termin": "Wiedereröffnung Asien/Europa nach Freitags-Abverkauf; Reaktion auf Nvidia-SEC-Bericht",
+   "wichtig": true
+  },
+  {
+   "zeit": "Mi 25.11.",
+   "termin": "US-PCE (Oktober), BIP 2. Schätzung Q3, Durchgangsdaten, Beige Book (Zinsanhebungs-Erwartung)",
+   "wichtig": true
+  },
+  {
+   "zeit": "Do 26.11.",
+   "termin": "US-Börsen geschlossen (Thanksgiving), dünne Liquidität",
+   "wichtig": false
+  },
+  {
+   "zeit": "09.12.",
+   "termin": "Fed-Zinsentscheid",
+   "wichtig": true
+  }
+ ],
+ "luecken": [
+  "Sonntag: Börsen geschlossen, Kursdaten und %-Veränderung beziehen sich auf die letzten 12 Handelsstunden bis Freitagsschluss (Bitcoin: echte 12h).",
+  "Keine Wochenendmeldungen zu Börse/Geopolitik gefunden; Ereignisse stammen vom Freitag. Nvidia-SEC-Meldung nur über Sekundärquellen, nicht direkt bei Reuters verifiziert.",
+  "Take-Two: aktuelle KGV-Werte je nach Quelle 21–35, Marktkap. ca.; aktueller Analysten-Stand undatiert; nächster Quartalszahlen-Termin nicht gefunden (Suchen: Analysten, Marktkap./KGV, GTA-VI-News).",
+  "Geopolitik (Iran/Hormuz): Suche lieferte nur ältere Meldungen, keine aktuelle Lage bestätigt.",
+  "Gründe für Top10/KI10-Bewegungen außer Nvidia nicht einzeln recherchiert (als vermutet gekennzeichnet)."
+ ]
+}
