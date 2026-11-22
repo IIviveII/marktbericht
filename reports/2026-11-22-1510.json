@@ -1,0 +1,817 @@
+{
+ "zeit": "2026-11-22T15:10:42+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-off",
+ "kurz": "Risk-off: Der Freitag brachte einen scharfen KI-/Tech-Ausverkauf – Nasdaq Composite -5,3 %, S&P 500 -3,7 % (Korrektur), VIX bei knapp 36; Nvidia -14 % nach Berichten über eine SEC-Untersuchung, dazu Anthropic-Börsengang als ‚Sell the news‘, Huang-Rücktritt und Zinsangst. Die Fed signalisiert für Dezember weitere Zinserhöhungen, Iran/Hormus hält Öl hoch, die 10J-Rendite pendelt um 4,9 %. Gegen den Trend: Take-Two (GTA VI mit 3,79 Mrd. $ Day-One-Umsatz laut Unternehmen) hielt sich stabil bei ca. 210 $.",
+ "maerkte": [
+  {
+   "gruppe": "Indizes",
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 6910.39,
+   "pct": -3.72,
+   "verlauf": [
+    7120.5698,
+    7071.2998,
+    7023.4902,
+    7016.3999,
+    6963.7202,
+    6942.0098,
+    6918.4502,
+    6910.3901
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 25028.98,
+   "pct": -5.63,
+   "verlauf": [
+    25970.3418,
+    25713.5215,
+    25505.9336,
+    25495.4961,
+    25265.0,
+    25150.2793,
+    25065.4023,
+    25028.9824
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 24802.78,
+   "pct": -2.73,
+   "verlauf": [
+    25062.7305,
+    24921.7793,
+    25066.7305,
+    24989.1191,
+    24912.6992,
+    24917.6797,
+    25044.7598,
+    24873.7793,
+    24839.4707,
+    24802.7793
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 5941.95,
+   "pct": -2.91,
+   "verlauf": [
+    6017.98,
+    5972.8599,
+    6009.1001,
+    5991.2598,
+    5975.0601,
+    5980.1099,
+    6011.71,
+    5957.7598,
+    5951.9702,
+    5941.9502
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 56436.65,
+   "pct": -5.22,
+   "verlauf": [
+    57038.8984,
+    56801.7891,
+    56775.0391,
+    56973.5898,
+    56545.1719,
+    56652.4297,
+    56576.4102,
+    56436.6484
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 35.89,
+   "pct": 19.79,
+   "verlauf": [
+    28.9,
+    29.87,
+    30.83,
+    30.3,
+    27.3,
+    30.27,
+    30.86,
+    31.95,
+    31.43,
+    34.21,
+    39.53,
+    35.89,
+    35.89
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 89.95,
+   "pct": 2.45,
+   "verlauf": [
+    88.46,
+    89.19,
+    89.43,
+    89.1,
+    88.45,
+    88.62,
+    88.88,
+    89.25,
+    89.62,
+    89.53,
+    90.2,
+    89.95,
+    89.95
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3515.4,
+   "pct": -1.51,
+   "verlauf": [
+    3588.3999,
+    3575.7,
+    3574.3,
+    3572.8999,
+    3578.8999,
+    3551.8999,
+    3547.5,
+    3531.7,
+    3535.6001,
+    3524.7,
+    3526.2,
+    3515.3999,
+    3515.3999
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.1,
+   "pct": -0.01,
+   "verlauf": [
+    1.0963,
+    1.0961,
+    1.0984,
+    1.0997,
+    1.0984,
+    1.0984,
+    1.0983,
+    1.0976,
+    1.0972,
+    1.0973,
+    1.0969,
+    1.0971,
+    1.0975
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "US 10J-Rendite",
+   "symbol": "^TNX",
+   "kurs": 4.91,
+   "pct": -2.77,
+   "verlauf": [
+    4.986,
+    4.964,
+    4.952,
+    4.94,
+    4.946,
+    4.936,
+    4.912
+   ]
+  },
+  {
+   "gruppe": "Krypto",
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 60760.8,
+   "pct": 2.36,
+   "verlauf": [
+    59216.8594,
+    59184.0703,
+    58783.4805,
+    59023.8008,
+    59052.6602,
+    59695.8516,
+    61010.0,
+    60785.9609,
+    60958.3984,
+    60751.8398,
+    60646.75,
+    60713.5781,
+    60760.8008
+   ]
+  }
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 125.53,
+   "pct": -14.02,
+   "verlauf": [
+    138.72,
+    136.66,
+    135.415,
+    135.788,
+    130.5401,
+    128.2934,
+    125.79,
+    125.53
+   ],
+   "notiz": "Reuters/WSJ-Berichte über eine SEC-Untersuchung zu Nvidias Angaben, dazu CEO-Rücktritt Huang (12.11.) und KI-Ausverkauf – schlechtester Tag seit Januar 2025."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 484.52,
+   "pct": -2.74,
+   "verlauf": [
+    497.39,
+    491.69,
+    488.515,
+    489.26,
+    487.34,
+    483.84,
+    485.01,
+    484.52
+   ],
+   "notiz": "Moderat, im Sog des Tech-Ausverkaufs."
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 342.56,
+   "pct": -1.87,
+   "verlauf": [
+    348.91,
+    347.485,
+    345.6,
+    344.96,
+    343.0,
+    343.3399,
+    342.68,
+    342.56
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 265.29,
+   "pct": -2.65,
+   "verlauf": [
+    278.675,
+    277.46,
+    273.445,
+    272.77,
+    270.115,
+    267.22,
+    265.6767,
+    265.29
+   ],
+   "notiz": "Moderat, im Sog des Tech-Ausverkaufs."
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 246.82,
+   "pct": -4.02,
+   "verlauf": [
+    255.885,
+    252.945,
+    251.0051,
+    249.96,
+    247.57,
+    247.39,
+    247.15,
+    246.82
+   ],
+   "notiz": "Vermutet: Teil des breiten Tech-Ausverkaufs."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 560.84,
+   "pct": -5.93,
+   "verlauf": [
+    577.52,
+    573.8361,
+    570.985,
+    567.62,
+    562.7,
+    560.86,
+    561.46,
+    560.84
+   ],
+   "notiz": "Vermutet: Teil des breiten Tech-/KI-Ausverkaufs (Nasdaq -5,3 %)."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 304.41,
+   "pct": -12.16,
+   "verlauf": [
+    321.1,
+    313.855,
+    307.1862,
+    306.95,
+    305.24,
+    303.49,
+    304.17,
+    304.41
+   ],
+   "notiz": "Vermutet: Mitgezogen vom KI-/Chip-Ausverkauf nach Nvidia."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 318.71,
+   "pct": -9.48,
+   "verlauf": [
+    332.645,
+    326.14,
+    322.04,
+    323.2299,
+    320.37,
+    321.26,
+    319.55,
+    318.71
+   ],
+   "notiz": "Chip-Ausverkauf; berichtet wird zudem, dass TSMC Aufträge einiger chinesischer Kunden ausgesetzt hat (nicht von uns zweifach geprüft)."
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 345.82,
+   "pct": -7.64,
+   "verlauf": [
+    363.51,
+    358.21,
+    352.3,
+    351.04,
+    347.48,
+    345.905,
+    346.15,
+    345.82
+   ],
+   "notiz": "Vermutet: Teil des breiten Tech-Ausverkaufs."
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 570.0,
+   "pct": -0.36,
+   "verlauf": [
+    575.29,
+    574.3,
+    571.145,
+    570.555,
+    567.73,
+    569.27,
+    570.29,
+    570.0
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 125.53,
+   "pct": -14.02,
+   "verlauf": [
+    138.72,
+    136.66,
+    135.415,
+    135.788,
+    130.5401,
+    128.2934,
+    125.79,
+    125.53
+   ],
+   "notiz": "Reuters/WSJ-Berichte über eine SEC-Untersuchung zu Nvidias Angaben, dazu CEO-Rücktritt Huang (12.11.) und KI-Ausverkauf – schlechtester Tag seit Januar 2025."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 484.52,
+   "pct": -2.74,
+   "verlauf": [
+    497.39,
+    491.69,
+    488.515,
+    489.26,
+    487.34,
+    483.84,
+    485.01,
+    484.52
+   ],
+   "notiz": "Moderat, im Sog des Tech-Ausverkaufs."
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 265.29,
+   "pct": -2.65,
+   "verlauf": [
+    278.675,
+    277.46,
+    273.445,
+    272.77,
+    270.115,
+    267.22,
+    265.6767,
+    265.29
+   ],
+   "notiz": "Moderat, im Sog des Tech-Ausverkaufs."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 560.84,
+   "pct": -5.93,
+   "verlauf": [
+    577.52,
+    573.8361,
+    570.985,
+    567.62,
+    562.7,
+    560.86,
+    561.46,
+    560.84
+   ],
+   "notiz": "Vermutet: Teil des breiten Tech-/KI-Ausverkaufs (Nasdaq -5,3 %)."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 304.41,
+   "pct": -12.16,
+   "verlauf": [
+    321.1,
+    313.855,
+    307.1862,
+    306.95,
+    305.24,
+    303.49,
+    304.17,
+    304.41
+   ],
+   "notiz": "Vermutet: Mitgezogen vom KI-/Chip-Ausverkauf nach Nvidia."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 318.71,
+   "pct": -9.48,
+   "verlauf": [
+    332.645,
+    326.14,
+    322.04,
+    323.2299,
+    320.37,
+    321.26,
+    319.55,
+    318.71
+   ],
+   "notiz": "Chip-Ausverkauf; berichtet wird zudem, dass TSMC Aufträge einiger chinesischer Kunden ausgesetzt hat (nicht von uns zweifach geprüft)."
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 424.39,
+   "pct": -13.24,
+   "verlauf": [
+    454.17,
+    436.43,
+    432.54,
+    434.81,
+    425.22,
+    425.825,
+    424.26,
+    424.39
+   ],
+   "notiz": "Vermutet: Mitgezogen vom KI-/Chip-Ausverkauf nach Nvidia."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 143.49,
+   "pct": -6.58,
+   "verlauf": [
+    149.1,
+    146.054,
+    145.7502,
+    146.805,
+    144.79,
+    143.8,
+    143.57,
+    143.49
+   ],
+   "notiz": "Vermutet: Teil des KI-Ausverkaufs."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 101.19,
+   "pct": -8.43,
+   "verlauf": [
+    106.26,
+    103.67,
+    102.8,
+    102.6,
+    101.8,
+    101.62,
+    101.18,
+    101.19
+   ],
+   "notiz": "Vermutet: KI-Infrastruktur-Titel unter Druck."
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1266.22,
+   "pct": -6.61,
+   "verlauf": [
+    1300.105,
+    1290.48,
+    1272.3431,
+    1284.96,
+    1268.73,
+    1265.04,
+    1268.25,
+    1266.22
+   ],
+   "notiz": "Vermutet: Chip-Ausverkauf, strengere US-Exportregeln."
+  }
+ ],
+ "aktien": [
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "kurs": 210.0,
+   "pct": 0.63,
+   "verlauf": [
+    207.63,
+    208.1,
+    210.9514,
+    205.31,
+    208.49,
+    211.75,
+    210.22,
+    210.0
+   ],
+   "kennzahlen": {
+    "Marktkap.": "ca. 39 Mrd. $",
+    "KGV": "n. a. (Verlust, EPS TTM -22,57); erw. je nach Quelle 21–50",
+    "52W-Hoch": "265,94",
+    "52W-Tief": "183,86",
+    "vs. 50-Tage": "+1,2 %",
+    "vs. 200-Tage": "-3,9 %",
+    "Seit Jahresbeginn": "-16,5 %",
+    "Volumen vs. Schnitt": "2,3x",
+    "Dividende": "keine"
+   },
+   "warum": "Bestätigt: Take-Two meldete am 20.11. für GTA VI einen Day-One-Umsatz von 3,79 Mrd. $ im Einzelhandel (Unternehmensschätzung, Rekord für jede Unterhaltungsmarke) und 32,5 Mio. vor Release verkaufte Einheiten; Sensor Tower hatte zuvor ca. 19 Mio. Einheiten bzw. 1,84 Mrd. $ geschätzt (Estimates, Methodik unklar). Die Aktie war am 18.11. um ca. 7 % gestiegen, fiel am Launchtag Richtung 200 $ und stabilisierte sich bei ca. 210 $; Benzinga beschreibt ein ‚Sell the news‘-Muster. Bestätigt: Freitag nur +0,6 % im Schlusskurs (intraday laut BigGo bis +2,7 %), obwohl der Nasdaq 5 % fiel – relative Stärke, aber bei 2,3-fachem Normalvolumen. Vermutet: Bewertungsfragen, Bestätigung der Verkaufszahlen und der Tech-Ausverkauf deckeln den Kurs; Metacritic-Score 99 und PSN-Störung am Launchtag sind Randthemen (Quellenlage dünn).",
+   "news": [
+    {
+     "zeit": "20.11.",
+     "titel": "GTA VI: 3,79 Mrd. $ Day-One-Umsatz, 32,5 Mio. Einheiten vor Release (Take-Two)",
+     "quelle": "Yahoo Finance",
+     "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/gta-6-sets-record-3-195125280.html"
+    },
+    {
+     "zeit": "20.11.",
+     "titel": "GTA 6 launch breaks every entertainment record",
+     "quelle": "heise online",
+     "url": "https://www.heise.de/en/news/GTA-6-launch-breaks-every-entertainment-record-11533555.html"
+    },
+    {
+     "zeit": "Nov. 2026",
+     "titel": "Take-Two Stock Under Renewed Pressure as Investors Sell the News on GTA VI Success",
+     "quelle": "Benzinga",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63516298/take-two-stock-under-renewed-pressure-as-investors-sell-the-news-on-gta-vi-success"
+    },
+    {
+     "zeit": "19.11.",
+     "titel": "TD Cowen bekräftigt Buy nach GTA-VI-Launch (Ziel 284 $)",
+     "quelle": "Investing.com",
+     "url": "https://www.investing.com/news/analyst-ratings/td-cowen-reiterates-buy-on-taketwo-stock-after-gta-vi-launch-93CH-5039405"
+    },
+    {
+     "zeit": "18.11.",
+     "titel": "GTA VI: ca. 17–19 Mio. Einheiten laut Sensor Tower-Tracker",
+     "quelle": "Sensor Tower / Reuters-Zitat",
+     "url": "https://sensortower.com/blog/the-art-of-the-steal-gtavi-is-coming-video-game-insights-sales-tracker"
+    },
+    {
+     "zeit": "09.11.",
+     "titel": "Q2 FY27: Net Bookings 1,60 Mrd. $ unter Prognosespanne, Jahresziel 8,0–8,2 Mrd. $ bestätigt",
+     "quelle": "Seeking Alpha (Pressemitteilung)",
+     "url": "https://seekingalpha.com/pr/20719548"
+    }
+   ],
+   "analysten": "Stand ca. 19.11. (Quellen uneinheitlich datiert): Konsens Kaufen (28 Buy, 1 Hold), Durchschnittsziel ca. 284 $. Bekannte Ziele: BofA 330 $ (gesenkt von 368 am 27.10.), JPMorgan 310 $, B. Riley 300 $, UBS 295 $ (gesenkt von 300 am 10.11.), Piper Sandler 290 $, BMO 285 $, TD Cowen 284 $, Oppenheimer 280 $. Keine Hoch-/Herabstufungen gefunden, nur Zielsenkungen und Bestätigungen. Wells Fargo erwartet laut Bericht höhere Stückzahlen.",
+   "chancen": [
+    "Rekordstart von GTA VI könnte Jahres-Bookings über die Guidance (8,0–8,2 Mrd. $) heben; Oppenheimer sieht ca. 9,8 Mrd. $",
+    "Langer Umsatzschweif (Online, DLC, Zweitplattformen) laut Analysten",
+    "Relative Stärke im Ausverkauf; Kurs liegt über der 50-Tage-Linie"
+   ],
+   "risiken": [
+    "Sell-the-news: Erwartungen bereits hoch, Aktie 17 % unter Jahresanfang und ca. 21 % unter 52W-Hoch",
+    "Verkaufszahlen sind Schätzungen des Unternehmens/Dritter, nicht geprüft",
+    "Weiterer Tech-/Wachstumsausverkauf und Zinserhöhungen belasten Bewertungen",
+    "Zukunftsfragen zu Rockstar-Belegschaft (Berichtslage dünn)"
+   ],
+   "technik": "Kurs 210,0 $ liegt ca. 1 % über der 50-Tage-Linie (207,5) und ca. 4 % unter der 200-Tage-Linie (218,4); 52W-Spanne 183,86–265,94, Abstand zum Hoch rund 21 %. Seitwärtsbewegung um 205–212 $ in den letzten Tagen, Volumen am Freitag 2,3-fach über dem 20-Tage-Schnitt.",
+   "termine": [
+    {
+     "zeit": "ca. 09.02.2027",
+     "termin": "Q3-Zahlen FY27 (Schätzung von Walnut Invest, nicht bestätigt)"
+    },
+    {
+     "zeit": "–",
+     "termin": "Keine Dividende; kein Hauptversammlungstermin recherchiert"
+    }
+   ],
+   "ausblick": "Zu beobachten: offizielle Folgezahlen zu GTA VI (Stückzahlen, Online-Engagement), Analystenanhebungen der Bookings-Ziele, ob die Aktie die 200-Tage-Linie (ca. 218 $) zurückerobert und wie sich der Tech-Ausverkauf am Montag fortsetzt. Auf der Unterseite ist das 200-$-Niveau der jüngste Testpunkt (laut Benzinga)."
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "KI-Ausverkauf: Nasdaq -5,3 %, S&P 500 -3,7 %",
+   "was": "Der S&P 500 und der Dow schlossen in Korrektur (>10 % unter Rekord), der Nasdaq Composite fiel 5,3 % auf ca. 22.618 und steht im Jahr im Minus; Nasdaq-Wochenverlust ca. 10 % (schlechteste Woche seit März 2020). Auslöser laut CNBC: Anthropic-IPO als ‚Sell the News‘, Nvidia-Probleme, Bruch der 200-Tage-Linie mit CTA-Verkäufen, Zinsangst, nachlassendes KI-Gewinnwachstum.",
+   "wirkung": "Tech, Halbleiter und KI-Infrastruktur unter Druck, VIX +20 % auf knapp 36. Risiko-Aversion; Wiedereröffnung am Montag ist die Schlüsselfrage.",
+   "richtung": "down",
+   "assets": [
+    "Nasdaq 100",
+    "S&P 500",
+    "Halbleiter",
+    "VIX"
+   ],
+   "quellen": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+    },
+    {
+     "name": "Yahoo Finance/Motley Fool",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-20-215502847.html"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia -14 %: SEC-Probe und Führungskrise",
+   "was": "Nvidia fiel 14,0 % auf 125,53 $ (schlechtester Tag seit Jan. 2025, Volumen ca. 2,6x). Berichtet wurde eine SEC-Untersuchung, ob Angaben Anleger irreführten (WSJ; Reuters-Zuordnung nicht eindeutig; ‚Accounting‘ unbestätigt). CEO Huang trat am 12.11. zurück, Kress ist Interims-CEO; der Verwaltungsrat erwägt laut Reuters keine Rückkehr.",
+   "wirkung": "Zieht Broadcom (-12 %), AMD (-13 %), TSMC (-9,5 %) mit; belastet den Nasdaq als größtes Indexgewicht.",
+   "richtung": "down",
+   "assets": [
+    "NVDA",
+    "AVGO",
+    "AMD",
+    "TSM",
+    "Chip-Sektor"
+   ],
+   "quellen": [
+    {
+     "name": "PYMNTS (WSJ-Bericht)",
+     "url": "https://pymnts.com/legal/2026/sec-investigating-whether-nvidia-misled-investors"
+    },
+    {
+     "name": "Taiwan News (Reuters)",
+     "url": "https://www.taiwannews.com.tw/en/news/6477774"
+    }
+   ]
+  },
+  {
+   "titel": "Fed: Zinserhöhungen im Dezember eingepreist",
+   "was": "Fed-Gouverneur Waller favorisiert eine Anhebung im Dezember (Sitzung 8./9.12.) und hält 50 Basispunkte für möglich; Oktober-Kerninflation 0,3 % (erwartet 0,2 %). Märkte preisen laut CME FedWatch ca. 85–89 % für +25 bp (Quellen uneinheitlich).",
+   "wirkung": "Höhere Zinsen belasten Wachstums-/Tech-Bewertungen; 10J-Rendite um 4,9 % nach Ausflug über 5 %.",
+   "richtung": "down",
+   "assets": [
+    "Staatsanleihen",
+    "Nasdaq",
+    "Gold",
+    "USD"
+   ],
+   "quellen": [
+    {
+     "name": "StockAnalysis",
+     "url": "https://stockanalysis.com/news/fed-waller-december-rate-hike-half-point/"
+    },
+    {
+     "name": "IBTimes",
+     "url": "https://www.ibtimes.com/hotter-cpi-raises-odds-december-fed-rate-hike-3809599"
+    }
+   ]
+  },
+  {
+   "titel": "Iran/Hormus: Öl bleibt erhöht",
+   "was": "Die Straße von Hormus bleibt laut Trackern praktisch gesperrt; Trump soll laut NYT/FT erneute Schläge erwägen, zugleich laufen Waffenstillstandsgespräche. Ein Tanker wurde am 21.11. nahe Khasab getroffen (Reuters-Item, nicht zweifach geprüft). Brent laut Yahoo ca. 90 $ (+2,5 %), Quellen nennen 83–93 $ je nach Kontrakt/Zeit.",
+   "wirkung": "Treibt Inflationssorgen und stützt Energieaktien; belastet zyklische Werte und Zinsausblick.",
+   "richtung": "down",
+   "assets": [
+    "Brent",
+    "Energie",
+    "Inflation"
+   ],
+   "quellen": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588"
+    }
+   ]
+  },
+  {
+   "titel": "GTA VI: Rekordstart, Take-Two stabil",
+   "was": "Take-Two meldet 3,79 Mrd. $ Day-One-Umsatz und 32,5 Mio. Einheiten vor Release; die Aktie schloss Freitag leicht im Plus (ca. 210 $).",
+   "wirkung": "Stützt Gaming/Konsolen-Partner (Sony, Microsoft) laut Stocktwits-Bericht vom 18.11.; Marktgewicht gering.",
+   "richtung": "mixed",
+   "assets": [
+    "TTWO",
+    "Gaming"
+   ],
+   "quellen": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/gta-6-sets-record-3-195125280.html"
+    },
+    {
+     "name": "heise online",
+     "url": "https://www.heise.de/en/news/GTA-6-launch-breaks-every-entertainment-record-11533555.html"
+    }
+   ]
+  },
+  {
+   "titel": "Gold, Europa und Asien im Sog",
+   "was": "Gold fiel im Zeitraum 1,5 % auf ca. 3.515 $; DAX -2,7 %, Euro Stoxx 50 -2,9 %, Nikkei -5,2 % (jeweils bis zum letzten Handelsschluss laut Yahoo; Zeitfenster der Märkte unterschiedlich).",
+   "wirkung": "Liquiditätsverkäufe auch bei Gold; Bitcoin stabil (+2,4 %, ca. 60.800 $).",
+   "richtung": "down",
+   "assets": [
+    "DAX",
+    "Nikkei",
+    "Gold",
+    "Bitcoin"
+   ],
+   "quellen": [
+    {
+     "name": "Yahoo Finance (Kursdaten)",
+     "url": "https://finance.yahoo.com/"
+    }
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "zeit": "Mo 23.11.",
+   "termin": "Handelsstart nach dem Nasdaq-Absturz (Asien nachts, Europa 09:00, USA 15:30 Berliner Zeit)",
+   "wichtig": true
+  },
+  {
+   "zeit": "Mo 23.11.",
+   "termin": "Mögliche Flash-PMIs Eurozone/USA (Termin nicht verifiziert)",
+   "wichtig": false
+  },
+  {
+   "zeit": "laufend",
+   "termin": "Iran/Hormus: Verhandlungen bzw. mögliche US-Schläge",
+   "wichtig": true
+  },
+  {
+   "zeit": "26.11.",
+   "termin": "Thanksgiving – US-Börsen geschlossen",
+   "wichtig": false
+  }
+ ],
+ "luecken": [
+  "Kein verifizierter Wirtschaftskalender für Montag/nächste 24 h gefunden (mehrere Suchen).",
+  "Zeitfenster: Letzte Daten stammen vom Freitagsschluss (20.11.); 12h-Veränderung bezieht sich auf die letzte Handelssession, Märkte mit unterschiedlichem Handelsschluss (Europa/Asien früher).",
+  "Nvidia-Probe: Reuters-Meldung nicht direkt gefunden, WSJ-Bericht über Dritte; ‚Accounting‘-Charakter unbestätigt.",
+  "TTWO: Marktkap. ca. aus Kurs x ca. 185–187 Mio. Aktien (ca. 39 Mrd. $); erwartetes KGV je Quelle 21–50 (uneinheitlich); Analysten-Konsens-Datum ca. 19.11.; 3,79 Mrd. $ ist Unternehmensangabe.",
+  "Brent: Yahoo BZ=F ca. 90 $, Artikel nennen 83–93 $ – Kontrakt/Zeitpunkt unklar.",
+  "Gründe für Bewegungen bei META/TSLA/AMZN/ORCL/ASML/PLTR nicht einzeln belegt (als vermutet gekennzeichnet). Worldmonitor/Economist/Crisis Group nicht ausgewertet."
+ ]
+}
