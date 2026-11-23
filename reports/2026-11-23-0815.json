@@ -1,0 +1,706 @@
+{
+ "zeit": "2026-11-23T08:15:00+01:00",
+ "zeitraum": "12h",
+ "stimmung": "risk-off",
+ "kurz": "Der KI-Ausverkauf vom Freitag hat Dow und S&P 500 in die Korrektur geschickt; der VIX schloss bei 35,9 und Nvidia brach massiv ein. Die Märkte preisen eine Fed-Zinserhöhung im Dezember ein, Gold steigt, die Stimmung ist klar risk-off. Take-Two hielt sich dank Rekordstart von GTA VI relativ stabil (+1,1 %). Hinweis: Wochenende, daher beziehen sich alle Veränderungen auf die letzten Handelsstunden vom Freitag.",
+ "maerkte": [
+  {
+   "gruppe": "Indizes",
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "kurs": 6910.39,
+   "pct": -2.95,
+   "verlauf": [
+    7120.57,
+    7071.3,
+    7023.49,
+    7016.4,
+    6963.72,
+    6942.01,
+    6918.45,
+    6910.39
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nasdaq 100",
+   "symbol": "^NDX",
+   "kurs": 25028.982,
+   "pct": -3.62,
+   "verlauf": [
+    25970.34,
+    25713.52,
+    25505.93,
+    25495.5,
+    25265.0,
+    25150.28,
+    25065.4,
+    25028.98
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "kurs": 24802.78,
+   "pct": -1.05,
+   "verlauf": [
+    25066.73,
+    24989.12,
+    24912.7,
+    24917.68,
+    25044.76,
+    24873.78,
+    24839.47,
+    24802.78
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Euro Stoxx 50",
+   "symbol": "^STOXX50E",
+   "kurs": 5941.95,
+   "pct": -1.12,
+   "verlauf": [
+    6009.1,
+    5991.26,
+    5975.06,
+    5980.11,
+    6011.71,
+    5957.76,
+    5951.97,
+    5941.95
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "kurs": 56436.65,
+   "pct": -1.06,
+   "verlauf": [
+    57038.9,
+    56801.79,
+    56775.04,
+    56973.59,
+    56545.17,
+    56652.43,
+    56576.41,
+    56436.65
+   ]
+  },
+  {
+   "gruppe": "Indizes",
+   "name": "VIX",
+   "symbol": "^VIX",
+   "kurs": 35.89,
+   "pct": 20.96,
+   "verlauf": [
+    29.67,
+    30.37,
+    32.15,
+    32.08,
+    34.38,
+    35.99,
+    39.53,
+    35.89
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Brent",
+   "symbol": "BZ=F",
+   "kurs": 89.51,
+   "pct": 0.19,
+   "verlauf": [
+    89.34,
+    89.32,
+    89.72,
+    89.49,
+    90.31,
+    89.78,
+    89.49,
+    89.51
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe",
+   "name": "Gold",
+   "symbol": "GC=F",
+   "kurs": 3626.1,
+   "pct": 1.16,
+   "verlauf": [
+    3584.4,
+    3572.9,
+    3599.6,
+    3590.8,
+    3606.0,
+    3616.1,
+    3620.8,
+    3626.1,
+    3626.1
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "EUR/USD",
+   "symbol": "EURUSD=X",
+   "kurs": 1.1001,
+   "pct": 0.18,
+   "verlauf": [
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1,
+    1.1
+   ]
+  },
+  {
+   "gruppe": "Währung & Zinsen",
+   "name": "US 10J-Rendite",
+   "symbol": "^TNX",
+   "kurs": 4.912,
+   "pct": -2.77,
+   "verlauf": [
+    5.05,
+    4.99,
+    4.96,
+    4.95,
+    4.94,
+    4.95,
+    4.94,
+    4.91
+   ]
+  },
+  {
+   "gruppe": "Krypto",
+   "name": "Bitcoin",
+   "symbol": "BTC-USD",
+   "kurs": 61412.26,
+   "pct": 0.97,
+   "verlauf": [
+    60822.3,
+    60845.98,
+    61001.78,
+    61160.7,
+    61249.06,
+    60758.33,
+    60516.92,
+    61188.95,
+    61154.56,
+    61596.5,
+    61375.35,
+    61428.12,
+    61412.26
+   ]
+  }
+ ],
+ "top10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 125.53,
+   "pct": -9.51,
+   "verlauf": [
+    138.72,
+    136.66,
+    135.41,
+    135.79,
+    130.54,
+    128.29,
+    125.79,
+    125.53
+   ],
+   "notiz": "Laut Fox Business/Schwab/BigGo (Quellen uneinig bei Details) KI-Ausverkauf, längste Verlustserie seit 2008; Vermutet: Bewertungssorgen, Anthropic-Börsengang, Zinsangst."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 484.52,
+   "pct": -2.59,
+   "verlauf": [
+    497.39,
+    491.69,
+    488.52,
+    489.26,
+    487.34,
+    483.84,
+    485.01,
+    484.52
+   ],
+   "notiz": "Vermutet: KI-Ausverkauf."
+  },
+  {
+   "name": "Apple",
+   "symbol": "AAPL",
+   "kurs": 342.56,
+   "pct": -1.82,
+   "verlauf": [
+    348.91,
+    347.48,
+    345.6,
+    344.96,
+    343.0,
+    343.34,
+    342.68,
+    342.56
+   ],
+   "notiz": ""
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 265.29,
+   "pct": -4.8,
+   "verlauf": [
+    278.67,
+    277.46,
+    273.45,
+    272.77,
+    270.11,
+    267.22,
+    265.68,
+    265.29
+   ],
+   "notiz": "Vermutet: KI-Ausverkauf, Nasdaq-Korrektur."
+  },
+  {
+   "name": "Amazon",
+   "symbol": "AMZN",
+   "kurs": 246.82,
+   "pct": -3.54,
+   "verlauf": [
+    255.88,
+    252.95,
+    251.01,
+    249.96,
+    247.57,
+    247.39,
+    247.15,
+    246.82
+   ],
+   "notiz": "Vermutet: Breite Tech-Schwäche."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 560.84,
+   "pct": -2.89,
+   "verlauf": [
+    577.52,
+    573.84,
+    570.98,
+    567.62,
+    562.7,
+    560.86,
+    561.46,
+    560.84
+   ],
+   "notiz": "Vermutet: KI-Ausverkauf."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 304.41,
+   "pct": -5.2,
+   "verlauf": [
+    321.1,
+    313.86,
+    307.19,
+    306.95,
+    305.24,
+    303.49,
+    304.17,
+    304.41
+   ],
+   "notiz": "Vermutet: Mitgezogen im Chip-/KI-Ausverkauf."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 318.71,
+   "pct": -4.19,
+   "verlauf": [
+    332.64,
+    326.14,
+    322.04,
+    323.23,
+    320.37,
+    321.26,
+    319.55,
+    318.71
+   ],
+   "notiz": "Vermutet: Chip-Ausverkauf, Taiwan-Markt laut BigGo stark im Minus."
+  },
+  {
+   "name": "Tesla",
+   "symbol": "TSLA",
+   "kurs": 345.82,
+   "pct": -4.87,
+   "verlauf": [
+    363.51,
+    358.21,
+    352.3,
+    351.04,
+    347.48,
+    345.9,
+    346.15,
+    345.82
+   ],
+   "notiz": "Vermutet: Breite Tech-Schwäche."
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "symbol": "BRK-B",
+   "kurs": 570.0,
+   "pct": -0.92,
+   "verlauf": [
+    575.29,
+    574.3,
+    571.15,
+    570.55,
+    567.73,
+    569.27,
+    570.29,
+    570.0
+   ],
+   "notiz": ""
+  }
+ ],
+ "ki10": [
+  {
+   "name": "Nvidia",
+   "symbol": "NVDA",
+   "kurs": 125.53,
+   "pct": -9.51,
+   "verlauf": [
+    138.72,
+    136.66,
+    135.41,
+    135.79,
+    130.54,
+    128.29,
+    125.79,
+    125.53
+   ],
+   "notiz": "Laut Fox Business/Schwab/BigGo (Quellen uneinig bei Details) KI-Ausverkauf, längste Verlustserie seit 2008; Vermutet: Bewertungssorgen, Anthropic-Börsengang, Zinsangst."
+  },
+  {
+   "name": "Microsoft",
+   "symbol": "MSFT",
+   "kurs": 484.52,
+   "pct": -2.59,
+   "verlauf": [
+    497.39,
+    491.69,
+    488.52,
+    489.26,
+    487.34,
+    483.84,
+    485.01,
+    484.52
+   ],
+   "notiz": "Vermutet: KI-Ausverkauf."
+  },
+  {
+   "name": "Alphabet",
+   "symbol": "GOOGL",
+   "kurs": 265.29,
+   "pct": -4.8,
+   "verlauf": [
+    278.67,
+    277.46,
+    273.45,
+    272.77,
+    270.11,
+    267.22,
+    265.68,
+    265.29
+   ],
+   "notiz": "Vermutet: KI-Ausverkauf, Nasdaq-Korrektur."
+  },
+  {
+   "name": "Meta",
+   "symbol": "META",
+   "kurs": 560.84,
+   "pct": -2.89,
+   "verlauf": [
+    577.52,
+    573.84,
+    570.98,
+    567.62,
+    562.7,
+    560.86,
+    561.46,
+    560.84
+   ],
+   "notiz": "Vermutet: KI-Ausverkauf."
+  },
+  {
+   "name": "Broadcom",
+   "symbol": "AVGO",
+   "kurs": 304.41,
+   "pct": -5.2,
+   "verlauf": [
+    321.1,
+    313.86,
+    307.19,
+    306.95,
+    305.24,
+    303.49,
+    304.17,
+    304.41
+   ],
+   "notiz": "Vermutet: Mitgezogen im Chip-/KI-Ausverkauf."
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "kurs": 318.71,
+   "pct": -4.19,
+   "verlauf": [
+    332.64,
+    326.14,
+    322.04,
+    323.23,
+    320.37,
+    321.26,
+    319.55,
+    318.71
+   ],
+   "notiz": "Vermutet: Chip-Ausverkauf, Taiwan-Markt laut BigGo stark im Minus."
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "kurs": 424.39,
+   "pct": -6.56,
+   "verlauf": [
+    454.17,
+    436.43,
+    432.54,
+    434.81,
+    425.22,
+    425.83,
+    424.26,
+    424.39
+   ],
+   "notiz": "Vermutet: Mitgezogen im Chip-/KI-Ausverkauf."
+  },
+  {
+   "name": "Palantir",
+   "symbol": "PLTR",
+   "kurs": 143.49,
+   "pct": -3.76,
+   "verlauf": [
+    149.1,
+    146.05,
+    145.75,
+    146.8,
+    144.79,
+    143.8,
+    143.57,
+    143.49
+   ],
+   "notiz": "Vermutet: KI-Bewertungssorgen."
+  },
+  {
+   "name": "Oracle",
+   "symbol": "ORCL",
+   "kurs": 101.19,
+   "pct": -4.77,
+   "verlauf": [
+    106.26,
+    103.67,
+    102.8,
+    102.6,
+    101.8,
+    101.62,
+    101.18,
+    101.19
+   ],
+   "notiz": "Vermutet: KI-Infrastruktur-Titel unter Druck."
+  },
+  {
+   "name": "ASML",
+   "symbol": "ASML",
+   "kurs": 1266.22,
+   "pct": -2.61,
+   "verlauf": [
+    1300.1,
+    1290.48,
+    1272.34,
+    1284.96,
+    1268.73,
+    1265.04,
+    1268.25,
+    1266.22
+   ],
+   "notiz": "Vermutet: Chip-Ausrüster mit Sektor schwächer."
+  }
+ ],
+ "aktien": [
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive",
+   "kurs": 210.0,
+   "pct": 1.14,
+   "verlauf": [
+    207.63,
+    208.1,
+    210.95,
+    205.31,
+    208.49,
+    211.75,
+    210.22,
+    210.0
+   ],
+   "kennzahlen": {
+    "Marktkap.": "ca. 39 Mrd. $ (Stand 6.11. Fox Business/Yahoo; bei ~210 $ plausibel)",
+    "KGV": "nicht aussagekräftig (Verlust; EPS -1,73 $), erwartet ca. 21–35 je nach Quelle",
+    "52W-Hoch": "258,41",
+    "52W-Tief": "189,69",
+    "vs. 50-Tage": "+1,2 %",
+    "vs. 200-Tage": "-3,9 %",
+    "Seit Jahresbeginn": "-16,5 %",
+    "Volumen vs. Schnitt": "2,3x"
+   },
+   "warum": "Bestätigt: GTA VI erschien am 19.11.; Take-Two meldete am 20.11. 3,79 Mrd. $ Einzelhandelsumsatz am ersten Tag (Unternehmensschätzung), 32,5 Mio. Vorbestellungen, Metacritic 99 (take2games.com/ir). Bestätigt: Die Aktie lag am Freitag bei 210 $ (+0,65 % zum Vortag), im Verlauf der letzten Handelsstunden +1,1 %, bei 2,3-fachem Volumen. Vermutet: Der Titel hielt sich im Vergleich zum Nasdaq-Absturz (-3,6 %) gut, weil die Verkaufszahlen starke Zahlen lieferten; zuvor fiel er laut 24/7 Wall St. auf ~204 $ (17.11.) nach 231 $ am 11.11. ('Sell the news'-Muster, Vermutet).",
+   "news": [
+    {
+     "zeit": "20.11.",
+     "titel": "Grand Theft Auto VI: 3,79 Mrd. $ Day-One-Retail-Umsatz, 32,5 Mio. Pre-Sales",
+     "quelle": "Take-Two IR",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "zeit": "18.11.",
+     "titel": "Take-Two verlor 10 % in zwei Tagen vor GTA VI – Historie früherer Launches",
+     "quelle": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/18/take-two-has-lost-10-in-two-days-before-gta-vi-heres-what-the-stock-did-after-the-last-five-grand-theft-auto-launches/"
+    },
+    {
+     "zeit": "18.11.",
+     "titel": "Aktie springt 6,4 % nach Metacritic 99 (Quellenangaben zu Tagesbewegungen widersprüchlich)",
+     "quelle": "Finviz",
+     "url": "https://finviz.com/news/424726/take-two-shares-jump-64-as-grand-theft-auto-vi-earns-near-perfect-reviews-ahead-of-launch"
+    },
+    {
+     "zeit": "9.11.",
+     "titel": "Ergebnisse Q2 FY2027; Prognose Net Bookings 8,0–8,2 Mrd. $ bestätigt",
+     "quelle": "Seeking Alpha/Take-Two PR",
+     "url": "https://seekingalpha.com/pr/20719548"
+    }
+   ],
+   "analysten": "Stand: Vor-Launch-Quellen, teils undatiert. Konsens Moderate/Strong Buy; Ø-Kursziel je Quelle ca. 280–299 $ (MarketBeat ~299, Spanne 170–368; S&P Global ~284; Yahoo ~280). UBS Buy, Ziel 292 $ (7.11.); Piper Sandler Overweight 280 $; Raymond James Strong Buy 300 $; Wedbush 300 $; BofA höchstes Ziel 320 $. Keine datierten Hoch-/Herabstufungen nach dem Launch gefunden.",
+   "chancen": [
+    "Rekord-Start und 99er Metacritic stützen Net-Bookings-Ziel von 8,0–8,2 Mrd. $",
+    "Kurs ~19 % unter 52W-Hoch, Analystenziele deutlich darüber",
+    "Folge-Updates zu Wochenend-Verkäufen möglich"
+   ],
+   "risiken": [
+    "Sell-the-news nach Launch-Hype",
+    "Makro: KI-Ausverkauf, Zinserhöhungsängste belasten Wachstumswerte",
+    "Kurs unter 200-Tage-Linie; Verlust im Jahr -16,5 %"
+   ],
+   "technik": "Kurs +1,2 % über 50-Tage-Linie (207,5), aber 3,9 % unter 200-Tage-Linie (218,4); 10,7 % über dem 52W-Tief (189,69), 18,7 % unter dem Hoch (258,41). Seitwärts bis schwacher Trend.",
+   "termine": [
+    {
+     "zeit": "23.11.",
+     "termin": "Möglicher Update zu Wochenend-Verkäufen (BofA/Analysten-Erwartung, nicht bestätigt)"
+    },
+    {
+     "zeit": "ca. Anfang Feb. 2027",
+     "termin": "Q3-FY27-Zahlen (Termin nicht bestätigt; Muster früherer Jahre)"
+    }
+   ],
+   "ausblick": "Beobachten: weitere Verkaufszahlen, Analysten-Updates nach Launch, ob die Aktie die 200-Tage-Linie (~218 $) zurückerobert und wie sich das Nasdaq-Umfeld entwickelt."
+  }
+ ],
+ "ereignisse": [
+  {
+   "titel": "KI-Ausverkauf: Dow und S&P 500 in Korrektur, Nasdaq im Minus 2026",
+   "was": "Am Freitag fiel Nvidia laut Fox Business/Schwab/BigGo um rund 14 %, der VIX schloss bei 35,89 (höchster Stand seit 19 Monaten). Quellen nennen als Auslöser: schwacher Anthropic-IPO, KI-Bewertungssorgen, Erwartung einer Fed-Zinserhöhung im Dezember. Bessents Aussagen sowie eine SEC-Untersuchung bei Nvidia werden berichtet, sind aber nicht belegt.",
+   "wirkung": "Risk-off: Chip-/KI-Aktien, Nasdaq und Wachstumswerte unter Druck; Gold und Volatilität steigen.",
+   "richtung": "down",
+   "assets": [
+    "Nasdaq 100",
+    "Halbleiter",
+    "VIX",
+    "Gold"
+   ],
+   "quellen": [
+    {
+     "name": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
+    },
+    {
+     "name": "Schwab",
+     "url": "https://www.schwab.com/learn/story/market-volatility"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/30fcd533-fb97-4186-82d1-f67c89ff31fb"
+    }
+   ]
+  },
+  {
+   "titel": "Fed-Zinserhöhung im Dezember wird eingepreist",
+   "was": "Terminmärkte sehen laut Finimize/Investing.com hohe Wahrscheinlichkeit (75–85 %, undatierte Quellen) einer Zinserhöhung im Dezember. Die 10J-Rendite liegt bei 4,91 %.",
+   "wirkung": "Belastet Wachstumstitel und Bewertungen; stützt den Dollar.",
+   "richtung": "down",
+   "assets": [
+    "Tech",
+    "Anleihen",
+    "USD"
+   ],
+   "quellen": [
+    {
+     "name": "Finimize",
+     "url": "https://finimize.com/content/treasury-yields-slipped-as-traders-pushed-fed-bets-to-december"
+    }
+   ]
+  },
+  {
+   "titel": "GTA VI startet mit Rekord",
+   "was": "3,79 Mrd. $ Day-One-Umsatz, 32,5 Mio. Vorverkäufe.",
+   "wirkung": "Positiv für Take-Two und Gaming-Sektor; für den Gesamtmarkt gering.",
+   "richtung": "mixed",
+   "assets": [
+    "TTWO",
+    "Gaming"
+   ],
+   "quellen": [
+    {
+     "name": "Take-Two IR",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    }
+   ]
+  }
+ ],
+ "radar": [
+  {
+   "zeit": "23.11.",
+   "termin": "Folgeupdate zu GTA-VI-Wochenendverkäufen möglich (nicht bestätigt)",
+   "wichtig": false
+  },
+  {
+   "zeit": "23.11.",
+   "termin": "Reaktion der Märkte in Europa/USA auf Freitags-Ausverkauf; Fed-Sprecher und Inflationsdaten beobachten",
+   "wichtig": true
+  }
+ ],
+ "luecken": [
+  "Kursveränderungen = letzte Handelsstunden Freitag (Wochenende), kein Montagshandel",
+  "Nikkei laut Yahoo nur -1,1 % (BigGo nennt ca. -5 %): widersprüchlich",
+  "Nvidia-Rückgang Yahoo -9,5 % vs. Quellen ~-14 %: Zeitfenster/Quelle abweichend",
+  "SEC-Untersuchung zu Nvidia und Bessent-Aussagen nicht bestätigt",
+  "TTWO: Analysten nach Launch, Q3-Termin, aktuelles KGV nicht gefunden",
+  "Montagsmeldungen Asien nicht auffindbar",
+  "Gründe für Bewegungen in TOP10/KI10 sind überwiegend Vermutungen"
+ ]
+}
